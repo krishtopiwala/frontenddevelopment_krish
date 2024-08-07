@@ -1,0 +1,18 @@
+p {
+    background-color: blue;
+}
+p {
+    background-color: red;
+}
+
+.firstHeading {
+    background-color: black;
+}
+
+
+#firstHeading {
+    border: 2px solid violet;
+}
+.heading {
+    border: 4px dotted red;
+}
