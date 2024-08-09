@@ -61,4 +61,8 @@
     border: 5px ridge rebeccapurple;
     border: none;
     border: 5px solid salmon;
+
+    /* Outline Property */
+    outline: 5px solid blue;
+    outline-offset: 5px;
 }
