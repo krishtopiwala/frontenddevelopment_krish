@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Pseudo Class Selector */
+
+/* h1:first-child {
+    background-color: orange;
+    color: white;
+}
+
+h1:last-child {
+    background-color: violet;
+    color: white;
+}
+
+h1:first-of-type {
+    border: 3px dotted red;
+    color: blue
+}
+
+h1:last-of-type {
+    background-color: crimson;
+    color: white;
+}
+
+h1:nth-child(2) {
+    background-color: crimson;
+    color: white;
+}
+
+p:nth-child(1) {
+    border: 5px ridge blueviolet;
+}
+
+h1:nth-of-type(4) {
+    background-color: crimson;
+    color: white;
+}
+
+h1:nth-last-of-type(2) {
+    background-color: crimson;
+    color: white;
+} 
+
+p:nth-last-child(3) {
+    background-color: crimson;
+    color: white;
+}
+
+h1:nth-child(2) {
+    background-color: violet;
+    color: white;
+}
+
+h1:nth-last-child(5) {
+    border: 4px dashed blue;
+} */
+
+/* h1:only-of-type {
+    background-color: purple;
+    color: white;
+}
+
+h1:only-child {
+    color: red;
+} */
+
+/* Attribute Selectors */
+
+form {
+    /* background-color: gray; */
+    margin-top: 50px;
+}
+
+label {
+    color: red;
+}
+
+/* input:valid {
+    background-color: green;
+} */
+
+/* input:invalid {
+    background-color: red;
+} */
+
+input:focus {
+    background-color: orange;
+}
+
+input:read-only {
+    background-color: blue;
+}
+
+/* Link Selectors */
+
+a:link {
+    background-color: orange;
+}
+
+a:visited {
+    background-color: brown;
+    color: white;
+}
+
+a:active {
+    background-color: violet;
+}
+
+a[target='_blank'] {
+    background-color: aqua;
+}
+
+/* div[class |= 'box'] {
+    color: red;
+} */
+/* 
+div[class ~= 'box'] {
+    color: blue;
+} */
+
+div[class ^= 'm'] {
+    color: violet;
+}
+
+div[class $= 's'] {
+    color: green;
+}
+
+div[class *= 'v'] {
+    background-color: brown;
+}
+
+/* Pseudo Elements */
+
+p::selection {
+    background-color: orange;
+}
+
+p::first-line {
+    color: blue;
+}
+
+p::first-letter {
+    font-size: 50px;
+}
+
+p::after {
+    content: 'Hello World';
+}

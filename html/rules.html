@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Rules</title>
+    <link rel="stylesheet" href="../css/style2.css">
+    <style>
+        #demo1 {
+            background-color: red !important;
+        }
+
+        .maindiv #demo1 {
+            background-color: violet;
+        }
+    </style>
+</head>
+<body>
+    <!-- Inheritance Rule -->
+    
+    <div class="maindiv">
+        <div class="div-1" id="demo1" style="background-color: fuchsia !important;">This is Div 1</div>
+        <div class="div-2">This is Div 2</div>
+    </div>
+    <span class="mainspan">
+        <b>This is bold tag</b>
+    </span>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi recusandae atque repudiandae sint, consequatur officia deserunt perspiciatis inventore, odio magnam facilis? Ut quidem quam labore sapiente! Eaque necessitatibus possimus corporis.</p>
+
+    <div class="rgb"></div>
+
+    <div class="rgba"></div>
+
+    <div class="hex"></div>
+
+    <div class="hsl"></div>
+</body>
+</html>

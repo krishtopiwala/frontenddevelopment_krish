@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Border Radius */
+
+.border {
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+    border: 5px solid black;
+    border-radius: 20px;
+    border-radius: 20px 50px;
+    border-radius: 10px 30px 50px;
+    border-top-right-radius: 100px;
+    border-radius: 100%;
+}
+
+.typography {
+    color: blue;
+    text-align: justify;
+    text-align-last: justify;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+
+.vertical-alignment {
+    text-decoration: overline;
+    font-size: 50px;
+}
+
+/* Vertical Alignment Property */
+
+.vertical-alignment img {
+    width: 15px;
+    vertical-align: baseline;
+    vertical-align: middle;
+    vertical-align: bottom;
+    vertical-align: sub;
+    vertical-align: text-bottom;
+    vertical-align: super;
+    vertical-align: top;
+    vertical-align: text-top;
+}
+
+/* Text Decoration Property */
+
+.demo {
+    font-size: 30px;
+    text-decoration-line: overline;
+    text-decoration-line: line-through;
+    text-decoration-line: underline;
+    text-decoration-color: orange;
+    text-decoration-style: dotted;
+    text-decoration-style: dashed;
+    text-decoration-style: wavy;
+    text-decoration-style: solid;
+}
+
+/* Text Transform Property */
+
+.demo {
+    text-transform: capitalize;
+    text-transform: lowercase;
+    text-transform: unset;
+    /* text-indent: 55px; */
+    /* text-shadow: 5px 5px 15px black; */
+    line-height: 55px;
+    word-spacing: 15px;
+    letter-spacing: 25px;
+    white-space: wrap;
+}
+
+/* Calc() function */
+
+.demo {
+    font-size: calc(3vw + 5px);
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    /* font-variant: small-caps; */
+    font-style: italic;
+}

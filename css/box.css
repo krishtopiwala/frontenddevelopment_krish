@@ -1,0 +1,68 @@
+/* Box-Sizing Property */
+
+.content-box {
+    height: 500px;
+    width: 450px;
+    background-color: green;
+    padding: 10px;
+    border: 10px solid black;
+    /* box-sizing: content-box; */
+}
+
+.border-box {
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    padding: 10px;
+    border: 10px solid black;
+    /* box-sizing: border-box; */
+}
+
+/* Universal Selector */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Border Property */
+
+/* Long Hand Property */
+
+.border1 {
+    height: 150px;
+    width: 150px;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: red; 
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: yellow;*/
+}
+
+/* Short Hand Property */
+
+.border1 {
+    border: 5px solid blue;
+    border-top: 5px solid violet;
+}
+
+/* Border Types */
+
+.border2 {
+    height: 150px;
+    width: 150px;
+    border: 5px dotted slateblue;
+    border: 5px dashed brown;
+    border: 5px inset aqua;
+    border: 5px outset red;
+    border: 5px double orangered;
+    border: 5px groove lightcoral;
+    border: 5px hidden pink;
+    border: 5px ridge rebeccapurple;
+    border: none;
+    border: 5px solid salmon;
+
+    /* Outline Property */
+    outline: 5px solid blue;
+    outline-offset: 5px;
+}

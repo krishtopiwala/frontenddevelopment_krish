@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice | Table Tag</title>
+    <style>
+        caption {
+            font-size: 28px;
+        }
+
+        table th,
+        td {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Table 1 -->
+
+    <table border="1" cellpadding="10px">
+        <thead>
+            <tr>
+                <th colspan="6">Time Table</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="6">Hours</td>
+                <td>Mon</td>
+                <td>Tue</td>
+                <td>Wed</td>
+                <td>Thu</td>
+                <td>Fri</td>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>Science</td>
+                <td>Math</td>
+                <td>Science</td>
+                <td>Arts</td>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>Science</td>
+                <td>Math</td>
+                <td>Science</td>
+                <td>Arts</td>
+            </tr>
+            <tr>
+                <td colspan="5" style="text-align: center;">Lunch</td>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>Science</td>
+                <td>Math</td>
+                <td colspan="2" rowspan="2">Project</td>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>Science</td>
+                <td>Math</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Table 2 -->
+
+    <table border="1" cellpadding="10px">
+        <caption><b>TIME TABLE</b></caption>
+        <thead>
+            <th>Day/Period</th>
+            <th>I 9:30-10:20</th>
+            <th>II 10:20-11:10</th>
+            <th>III 12:00-12:40</th>
+            <th>12:00-12:40</th>
+            <th>IV 12:40-1:30</th>
+            <th>V 1:30-2:20</th>
+            <th>VI 2:20-3:10</th>
+            <th>VII 3:10-4:00</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>Eng</td>
+                <td>Mat</td>
+                <td>Che</td>
+                <td rowspan="5">LUNCH</td>
+                <td colspan="3">LAB</td>
+                <td>Phy</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td colspan="3">LAB</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td>Mat</td>
+                <td>SPORTS</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>Mat</td>
+                <td>Phy</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td colspan="3">LIBRARY</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>Phy</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td colspan="3">LAB</td>
+                <td>Mat</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>Phy</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td colspan="3">LAB</td>
+                <td>Mat</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+
+    <!-- Table 3 -->
+
+    <table border="1" cellpadding="10px">
+        <caption><b>Basic HTML Table</b></caption>
+        <thead>
+            <tr>
+                <th>Level1</th>
+                <th>Level2</th>
+                <th>Level3</th>
+                <th>Info</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="6">System</td>
+                <td rowspan="4">System Apps</td>
+                <td rowspan="3">SystemEnv</td>
+                <td>App Test</td>
+                <td>foo</td>
+            </tr>
+            <tr>
+                <td>App Memory</td>
+                <td>foo</td>
+            </tr>
+            <tr>
+                <td>App Test</td>
+                <td>bar</td>
+            </tr>
+            <tr>
+                <td>SystemEnv2</td>
+                <td>App Test</td>
+                <td>bar</td>
+            </tr>
+            <tr>
+                <td rowspan="2">System Memory</td>
+                <td rowspan="2">Memory Test</td>
+                <td>Memory Func</td>
+                <td>foo</td>
+            </tr>
+            <tr>
+                <td>Apes Test</td>
+                <td>foo</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+
+    <!-- Table 4 -->
+
+    <table border="1" cellpadding="10px">
+        <thead>
+            <tr>
+                <th colspan="2">Invoice #123456789</th>
+                <th colspan="2">14 January 2025</th>
+                <th>NUM</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">
+                    <pre>Pay to:
+Acme Billing Co.
+123 Main St.
+Cityville, NA 12345</pre>
+                <td colspan="2">
+                    <pre>Customer:
+John Smith
+321 Willow Way
+Southeast Northwestershire, MA 54321 </pre>
+                </td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>"Name"/Description</td>
+                <td>1</td>
+                <td>@</td>
+                <td>Cost</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Paperclips</td>
+                <td>1000</td>
+                <td>0.01</td>
+                <td>10.00</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Staples (box)</td>
+                <td>100</td>
+                <td>1.00</td>
+                <td>100.00</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td colspan="3">Subtotal</td>
+                <td>110.00</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td colspan="2">Tax</td>
+                <td>8%</td>
+                <td>8.80</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td colspan="3">Grand Total</td>
+                <td>$ 118.80</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td colspan="2">02-Mar-20</td>
+                <td colspan="2">April 10, 2020</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td rowspan="3">1</td>
+                <td>2</td>
+                <td>3</td>
+                <td rowspan="3">4</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2</td>
+                <td>3</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td colspan="4">1</td>
+                <td>1</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+
+    <!-- Table 5 -->
+
+    <table border="1" cellpadding="10px">
+        <caption>My Multi Level Table</caption>
+        <colgroup></colgroup>
+        <thead>
+            <tr>
+                <th rowspan="2" colspan="2">Column 0</th>
+                <th rowspan="2">Column 1</th>
+                <th colspan="2">Column 2</th>
+            </tr>
+            <tr>
+                <th>Column 2a</th>
+                <th>Column 2b</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Row 1</td>
+                <td>Row 1a</td>
+                <td>123</td>
+                <td>456</td>
+                <td>789</td>
+            </tr>
+            <tr>
+                <td>Row 1b</td>
+                <td>123</td>
+                <td>456</td>
+                <td>789</td>
+            </tr>
+            <tr>
+                <td colspan="2">Row 2</td>
+                <td>123</td>
+                <td>456</td>
+                <td>789</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

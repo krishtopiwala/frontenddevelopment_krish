@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+<body>
+
+    <!-- blockquote tag -->
+    <blockquote cite="https://en.wikipedia.org/wiki/JavaScript">
+        JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard.[11] It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).
+    </blockquote>
+    
+    <!-- figcaption tag there is no margin in the figcaption tag -->
+
+    <figcaption>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit culpa modi odio expedita saepe explicabo, corporis earum molestiae unde reiciendis quasi vero necessitatibus doloribus dolorem. Recusandae minima maxime earum, facere quam rem nostrum veritatis consectetur perspiciatis. Inventore dolores placeat repellat aperiam ad earum assumenda numquam, nulla, enim, dolore odio itaque.
+    </figcaption>
+    <figcaption>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit culpa modi odio expedita saepe explicabo, corporis earum molestiae unde reiciendis quasi vero necessitatibus doloribus dolorem. Recusandae minima maxime earum, facere quam rem nostrum veritatis consectetur perspiciatis. Inventore dolores placeat repellat aperiam ad earum assumenda numquam, nulla, enim, dolore odio itaque.
+    </figcaption>
+
+    <!-- figure tag -->
+    <figure>
+        <img src="../img/image-pexels.jpg" alt="mountain image">
+        <figcaption>This is mountain image</figcaption>
+    </figure>
+
+    <!-- clickable images -->
+    <a href="https://www.pexels.com/photo/people-on-horses-near-mountain-in-india-25841505/">
+        <img src="../img/image-pexels.jpg" alt="image">
+    </a> 
+
+    <!-- table tag -->
+    <table border="1" cellpadding="10px" cellspacing="5px">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Age</th>
+                <th>Gender</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ramesh</td>
+                <td>UI/UX</td>
+                <td>25</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>Suresh</td>
+                <td>Android Developer</td>
+                <td>28</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>Mahesh</td>
+                <td>UI/UX</td>
+                <td>26</td>
+                <td>Male</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- ROWSPAN/COLSPAN -->
+    <table border="1" cellpadding="10px" cellspacing="5px">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Age</th>
+                <th>Gender</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ramesh</td>
+                <td rowspan="2">UI/UX</td>
+                <td>25</td>
+                <td rowspan="2">Male</td>
+            </tr>
+            <tr>
+                <td>Mahesh</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>Suresh</td>
+                <td>Python Developer</td>
+                <td>28</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>Jayesh</td>
+                <td rowspan="2">Android Developer</td>
+                <td>38</td>
+                <td rowspan="2">Male</td>
+            </tr>
+            <tr>
+                <td>Rakesh</td>
+                <td>28</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- colgroup -->
+    <table border="1" cellpadding="10px" cellspacing="">
+        <colgroup>
+            <col span="1" bgcolor="yellow">
+            <col span="3" bgcolor="orange">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Age</th>
+                <th>Gender</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ramesh</td>
+                <td rowspan="2">UI/UX</td>
+                <td>25</td>
+                <td rowspan="2">Male</td>
+            </tr>
+            <tr>
+                <td>Mahesh</td>
+                <td>26</td>
+            </tr>
+    </table>
+</body>
+</html>

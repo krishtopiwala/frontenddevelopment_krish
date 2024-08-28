@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice</title>
+    <style>
+        label {
+            font-size: 21px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Form 1 -->
+    <form>
+        <fieldset>
+            <legend>Employee Details</legend>
+            <label for="firstName">First name:</label>
+            <input type="text" id="firstName" required>
+            <br><br>
+            <label for="lastName">Last name:</label>
+            <input type="text" id="lastName" required>
+            <br><br>
+            <label for="male">
+                <input type="radio" name="gender" id="male">Male
+            </label>
+            <label for="female">
+                <input type="radio" name="gender" id="female">Female
+            </label>
+            <br><br>
+            <label for="id">Employee ID:</label>
+            <input type="number" id="id" required>
+            <br><br>
+            <label for="designation">Designation:</label>
+            <input type="text" id="designation" required>
+            <br><br>
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" required>
+            <br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+
+    <!-- Form 2 -->
+    <h1>Application Form</h1>
+    <form>
+        <label for="fname">First Name: </label>
+        <input type="text" name="fname" id="fname">
+        <label for="lname">Last Name: </label>
+        <input type="text" name="lname" id="lname">
+        <br><br>
+        <label for="dob">Date of birth: </label>
+        <input type="date" name="dob" id="dob">
+        <label for="age">Age: </label>
+        <input type="number" name="age" id="age">
+        <br><br>
+        <label for="gender">Gender: </label>
+        <select name="gender" id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        <label for="email">Email Address: </label>
+        <input type="email" name="email" id="email" placeholder="Enter email address">
+        <br><br>
+        <label for="position">Positions Available: </label>
+        <label for="jDeveloper">
+            <input type="radio" name="position" id="jDeveloper">Junior Developer
+        </label>
+        <label for="mDeveloper">
+            <input type="radio" name="position" id="mDeveloper">Mid-level Developer
+        </label>
+        <label for="sDeveloper">
+            <input type="radio" name="position" id="sDeveloper">Senior Developer
+        </label>
+        <br><br>
+        <label for="languages">Programming Languages: </label>
+        <label for="java">
+            <input type="checkbox" name="java" id="java">Java
+        </label>
+        <label for="javascript">
+            <input type="checkbox" name="javascript" id="javascript">JavaScript
+        </label>
+        <label for="python">
+            <input type="checkbox" name="python" id="python">Python
+        </label>
+        <br><br>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password">
+        <label for="cpassword">Confirm Password: </label>
+        <input type="password" name="cpassword" id="cpassword">
+        <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+
+    <!-- Form 3 -->
+    <h1>Student Registration Form</h1>
+    <p style="font-size: 20px;">Fill in this form to register</p>
+    <form>
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" placeholder="Enter your first name">
+        <br><br>
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" placeholder="Enter your last name">
+        <br><br>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" placeholder="Enter your e-mail">
+        <br><br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob">
+        <br><br>
+        <label for="username">Set Username</label>
+        <input type="text" id="username" placeholder="Set Username">
+        <br><br>
+        <label for="password">Set Password</label>
+        <input type="password" id="password" placeholder="Set password">
+        <br><br>
+        <label for="gender">Gender</label><br>
+        <label for="male">
+            <input type="radio" name="gender" id="male">Male
+        </label><br>
+        <label for="female">
+            <input type="radio" name="gender" id="female">Female
+        </label><br>
+        <label for="others">
+            <input type="radio" name="gender" id="others">Others
+        </label>
+        <br><br>
+        <label for="course">Course:</label>
+        <select name="course" id="course">
+            <option value="Course" selected>Course</option>
+            <option value="Java">Java</option>
+            <option value="Java">Python</option>
+            <option value="Java">UI/UX</option>
+            <option value="Java">Full Stack</option>
+            <option value="Java">Flutter</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Register">
+    </form>
+
+    <!-- Form 4 -->
+    <form>
+        <h1>Farewell Party Survey Form</h1>
+        <label for="name">Name </label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+        <br><br>
+        <label for="email">Email </label>
+        <input type="email" name="email" id="email" placeholder="Enter your email" required>
+        <br><br>
+        <label for="age">Age </label>
+        <input type="number" name="age" id="age" placeholder="Enter your age" required>
+        <br><br>
+        <label for="desc">Which option best describes you? </label>
+        <select name="desc" id="desc">
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+        </select>
+        <br><br>
+        <label for="ques">Will you attend the party? </label>
+        <label for="yes">
+            <input type="radio" name="ques" id="yes">Yes
+        </label>
+        <label for="no">
+            <input type="radio" name="ques" id="no">No
+        </label>
+        <br><br>
+        <label for="ques2">What did you like about the program?</label>
+        <br>
+        <label for="training">
+            <input type="checkbox" name="training" id="training">Training
+        </label>
+        <br>
+        <label for="industry">
+            <input type="checkbox" name="industry" id="industry">The Learning Sessions from Industry Experts
+        </label>
+        <br>
+        <label for="meetups">
+            <input type="checkbox" name="meetups" id="meetups">Community Meetups
+        </label>
+        <br>
+        <label for="sessions">
+            <input type="checkbox" name="sessions" id="sessions">Brown Bag Sessions
+        </label>
+        <br>
+        <label for="hybrid">
+            <input type="checkbox" name="hybrid" id="hybrid">Switching to Hybrid Mode
+        </label>
+        <br>
+        <label for="food">
+            <input type="checkbox" name="food" id="food">Food, Office etc.
+        </label>
+        <br><br>
+        <label for="comments">Any comments or suggestions </label>
+        <textarea name="comments" id="comments"></textarea>
+        <br><br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
