@@ -1,0 +1,130 @@
+body {
+    background-color: #212121;
+    color: #fff;
+    margin-left: 55px;
+}
+
+h1 {
+    color: #ffff3f;
+}
+
+span {
+    color: #ff6d00;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #ffffff;
+}
+
+.transition {
+    transition: all;
+    /* transition-delay: 3s; */
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    /* transition-timing-function: steps(5); */
+}
+
+.translate {
+    background-color: #845ec2;
+}
+
+.translate:hover {
+    transform: translate(100px, 100px);
+}
+
+.translateX {
+    background-color: #d00000;
+}
+
+.translateX:hover {
+    transform: translateX(200px);
+}
+
+.translateY {
+    background-color: #ffba08;
+}
+
+.translateY:hover {
+    transform: translateY(-100px);
+}
+
+.scale {
+    background-color: #48cae4;
+}
+
+.scale:hover {
+    transform: scale(4, 2);
+}
+
+.scaleX {
+    background-color: #6a994e;
+}
+
+.scaleX:hover {
+    transform: scaleX(3);
+}
+
+.scaleY {
+    background-color: #00f5d4;
+}
+
+.scaleY:hover {
+    transform: scaleY(0.01);
+}
+
+.rotate {
+    border: 3px solid #ffffff;
+    background-color: #0000ff;
+    font-size: 28px;
+    text-align: center;
+}
+
+.rotate:hover {
+    transform: rotate(-90deg);
+}
+
+.rotateX {
+    background-color: #eb5e28;
+    font-size: 28px;
+    text-align: center;
+}
+
+.rotateX:hover {
+    transform: rotateX(90deg);
+}
+
+.rotateY {
+    background-color: #38b000;
+    font-size: 28px;
+    text-align: center;
+}
+
+.rotateY:hover {
+    transform: rotateY(90deg);
+}
+
+.skew {
+    background-color: #fdc500;
+}
+
+.skew:hover {
+    transform: skew(20deg, 55deg);
+}
+
+.skewX {
+    background-color: #5a189a;
+}
+
+.skewX:hover {
+    transform: skewX(55deg);
+}
+
+.skewY {
+    background-color: #52b788;
+}
+
+.skewY:hover {
+    transform: skewY(-45deg);
+}
