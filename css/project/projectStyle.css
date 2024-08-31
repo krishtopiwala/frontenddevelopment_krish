@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.mainHeader {
+    display: flex;
+}
+
+header .navigation {
+    border: 2px solid red;
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.background {
+    border: 2px solid blue;
+    width: 87%;
+}
+
+.background .hero-section {
+    background-image: url(../../assets/Img/banner-before.jpg);
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.background .hero-section .logo img {
+    /* border: 1px solid green; */
+    position: relative;
+    bottom: 50px;
+}
+
+.background .hero-section .headingLine h1 {
+    font-size: 74px;
+    background-color: #ffffff;
+    color: #202020;
+    letter-spacing: 1px;
+    position: relative;
+    bottom: 20px;
+}
+
+.background .hero-section .hero-line p {
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    width: 610px;
+    line-height: 31px;
+}
+
+.background .hero-section .btn {
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 45px;
+    background: none;
+    border: 2px solid #fff; 
+    color: #fff;
+    border-radius: 40px;
+    line-height: 33px;
+    position: relative;
+    top: 50px;
+}
+
+.background .hero-section .btn:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+
+.container {
+    border: 2px solid yellowgreen;
+    width: 1024px;
+    margin: 0px auto;
+}
+
+.container .about {
+    padding-top: 150px;
+    text-align: center;
+}
+
+.container .about .quote {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+}
+
+.container .about #do-title {
+    border: 3px solid black;
+    font-size: 40px;
+    color: #202020;
+    width: 350px;
+    padding: 15px 30px;
+    margin: 25px auto;
+    line-height: 48px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+.container .about .about-para {
+    color: #6b6b6b;
+    font-size: 16px;
+    padding: 0 200px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.container .about .do-section {
+    margin-top: 65px;
+    /* border: 2px solid coral; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .about .do-section .icons {
+    display: inline-block;
+    font-size: 50px;
+    margin-top: 55px;
+}
+
+.container .about .do-section .title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: normal;
+    margin: 25px 0;
+}
+
+.container .about .do-section .card-detail {
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 60px;
+    letter-spacing: 0.5px;
+}
+
+#pen {
+    color: #05c38a;  
+}
+
+#code {
+    color: #6c30eb;
+}
+
+#marketing {
+    background-color: #0c95f8;
+    color: #ffffff;
+}
+
+#marketing:hover {
+    cursor: pointer;
+}
+
+#design:hover {
+    background-color: #05c38a;
+    color: #fff;
+    cursor: pointer;
+}
+
+#design:hover #pen {
+    color: #fff;
+}
+
+#development:hover {
+    background-color: #6c30eb;
+    color: #fff;
+    cursor: pointer;
+}
+
+#development:hover #code {
+    background-color: #6c30eb;
+    color: #fff;
+    cursor: pointer;
+}
