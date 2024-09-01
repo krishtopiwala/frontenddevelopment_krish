@@ -96,11 +96,11 @@ header .navigation {
     line-height: 25px;
 }
 
-.container .about #do-title {
+.container .about .do-title {
     border: 3px solid black;
     font-size: 40px;
     color: #202020;
-    width: 350px;
+    display: inline-block;
     padding: 15px 30px;
     margin: 25px auto;
     line-height: 48px;
@@ -266,3 +266,23 @@ header .navigation {
     margin-bottom: 8px;
     font-weight: 400;
 } 
+
+/* Portfolio Section CSS */
+
+.portfolioSection .container .portfolio {
+    border: 3px solid blue;
+}
+
+.portfolioSection .container .portfolio .item1,
+.portfolioSection .container .portfolio .item3 {
+    display: inline-block;
+    border: 1px solid red;
+    width: 49%;
+}
+
+.portfolioSection .container .portfolio .item2,
+.portfolioSection .container .portfolio .item4 {
+    display: inline-block;
+    border: 1px solid red;
+    width: 50%;
+}
