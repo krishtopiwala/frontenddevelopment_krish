@@ -277,12 +277,186 @@ header .navigation {
 .portfolioSection .container .portfolio .item3 {
     display: inline-block;
     border: 1px solid red;
-    width: 49%;
+    width: 50%;
 }
 
 .portfolioSection .container .portfolio .item2,
 .portfolioSection .container .portfolio .item4 {
     display: inline-block;
     border: 1px solid red;
-    width: 50%;
+    width: 49%;
+}
+
+.portfolioSection .container .portfolio .item2 .img-portfolio img {
+    width: 100%;
+}
+
+.portfolioSection .container .portfolio .item2 .text {
+    border: 1px solid black;
+    position: relative;
+    bottom: 315px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.portfolioSection .container .portfolio .item2 .text h3 {
+    font-size: 36px;
+    color: #ffffff;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px;
+    font-weight: normal;
+}
+
+.portfolioSection .container .portfolio .item2 .text p {
+    font-size: 14px;
+    font-weight: normal;
+    color: #fff;
+    line-height: 22.4px;
+    padding: 5px 20px;
+}
+
+.portfolioSection .container .portfolio .item2 .text a {
+    font-size: 16px;
+    border: 2px solid#fff;
+    color: #fff;
+    padding: 10px 48px;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.portfolioSection .container .portfolio .item2 .text a:hover {
+    background-color: #fff;
+    color: #232728;
+}
+
+.portfolioSection .mainQuote {
+    background-color: #f0316a;
+    margin-top: 90px;
+    padding: 100px 0;
+}
+
+.portfolioSection .mainQuote .container p {
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 0.5px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 200px;
+    color: #ffffff;
+    line-height: 39.2px;
+    font-weight: 500;
+}
+
+.portfolioSection .mainQuote .writer {
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+    padding-top: 25px;
+}
+
+#leftquote {
+    font-size: 25px;
+    margin-left: 25px;
+    color: #fff;
+}
+
+#rightquote {
+    font-size: 25px;
+    display: block;
+    text-align: end;
+    margin-right: 25px;
+    color: #fff;
+}
+
+/* Portfolio CSS Ends */
+
+/* Pricing CSS Starts */
+
+.pricing-section .container .pricing-packages {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 20px;
+}
+
+.pricing-section .container .pricing-packages .package1 {
+    background-color: #6c30eb;
+    color: #fff;
+}
+.pricing-section .container .pricing-packages .package2 {
+    background-color: #05c38a;
+    color: #fff;
+}
+
+.pricing-section .container .pricing-packages .package3 {
+    background-color: #0c95f8;
+    color: #fff;
+}
+
+.pricing-section .container .pricing-packages .package-heading {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 45px;
+}
+
+.pricing-section .container .pricing-packages .info {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    /* color: #fff; */
+    padding: 20px;
+    font-weight: normal;
+}
+
+.pricing-section .container .pricing-packages sup {
+    font-size: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.pricing-section .container .pricing-packages sub {
+    font-size: 15px;
+    vertical-align: baseline;
+}
+
+.pricing-section .container .pricing-packages .price {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    padding: 30px 0; 
+}
+
+.pricing-section .container .pricing-packages ul li {
+    list-style-type: none;
+}
+
+.pricing-section .container .pricing-packages .benefits {
+    margin-bottom: 25px;
+}
+
+.pricing-section .container .pricing-packages .benefits li {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    padding: 5px;
+}
+
+.pricing-section .container .pricing-packages a {
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 48px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    margin-block: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.pricing-section .container .pricing-packages a:hover {
+    background: #ffffff;
+    border-color: #ffffff;
+    color: #232728;
 }
