@@ -333,6 +333,10 @@ header .navigation {
     color: #232728;
 }
 
+.portfolioSection .container .portfolio .item4 .item4-inner2 {
+    display: flex;
+} 
+
 .portfolioSection .mainQuote {
     background-color: #f0316a;
     margin-top: 90px;
@@ -488,15 +492,26 @@ header .navigation {
 
 /* Contact Us Section CSS Start */
 
+.contactUs {
+    border: 2px solid blue;
+    padding-bottom: 120px;
+}
+
 .contactUs .container .formInfo {
     padding: 0 15px;
-    border: 2px solid blue;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+#contact-about {
+    padding-bottom: 120px;
 }
 
 .contactUs .container .formInfo .form {
-    background-color: lightgray;
+    padding: 0 15px;
+    flex-basis: 550px;
 }
 
 .contactUs .container .formInfo .contact-heading {
@@ -514,7 +529,7 @@ header .navigation {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .contactUs .container .formInfo .form form div:first-child {
@@ -553,7 +568,7 @@ textarea:focus {
 }
 
 .contactUs .container .formInfo .form form div textarea {
-    /* border: 2px solid #eceef2; */
+    /* border: 2px solid transparent; */
     border-radius: 0;
     margin-bottom: 20px;
 }
@@ -579,7 +594,8 @@ textarea:focus {
 }
 
 .contactUs .container .formInfo .contact-info {
-    background-color: lightgreen;
+    flex-basis: 410px;
+    padding: 0 15px;
 }
 
 #contHeading {
@@ -623,4 +639,102 @@ textarea:focus {
     padding-right: 0;
 }
 
+#location {
+    color: #f0316a;
+}
+
+#contact {
+    color: #0c95f8;
+}
+
+#email {
+    color: #6c30eb;
+}
+
 /* Contact Us Section CSS End */
+
+/* Footer CSS Start */
+
+.footer {
+    background-color: #f0316a;
+    padding: 56px 0;
+}
+
+.footer .container .footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .container .footer-section .social-icons ul {
+    display: flex;
+    align-items: center;
+}
+
+.footer .container .footer-section .social-icons ul li {
+    list-style-type: none;
+}
+
+.footer .container .footer-section .social-icons ul li i {
+    display: inline-block;
+    font-size: 17px;
+    text-align: center;
+    line-height: 17px;
+    letter-spacing: 0.5px;
+    color: #fff;
+    margin-right: 10px;
+    width: 46px;
+    height: 46px;
+    padding: 13px 10px;
+}
+
+.footer .container .footer-section .social-icons ul li i:hover {
+    border: 1px solid #fff;
+    border-radius: 50px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#facebook:hover {
+    color: #4267B2;
+}
+
+#twitter:hover {
+    color: #1DA1F2;
+}
+
+#google:hover {
+    color: #DB4437;
+}
+
+#linkedin:hover {
+    color: #0077b5;
+}
+
+#instagram:hover {
+    color: #C32AA3;
+}
+
+#pinterest:hover {
+    color: #BD081C;
+}
+
+.footer .container .footer-section .copyright p {
+    font-size: 16px;
+    text-align: right;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    color: #fff;
+    /* padding: 10px 10px; */
+}
+
+.footer .container .footer-section .copyright a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer .container .footer-section .copyright a:hover {
+    color: #3264f5;
+}
+
+/* Footer CSS End */
