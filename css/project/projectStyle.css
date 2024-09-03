@@ -485,3 +485,142 @@ header .navigation {
     opacity: 0.8;
 }
 /* Pricing Section CSS End */
+
+/* Contact Us Section CSS Start */
+
+.contactUs .container .formInfo {
+    padding: 0 15px;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row;
+}
+
+.contactUs .container .formInfo .form {
+    background-color: lightgray;
+}
+
+.contactUs .container .formInfo .contact-heading {
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #f0316a;
+    text-transform: capitalize;
+}
+
+.contactUs .container .formInfo .form form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contactUs .container .formInfo .form form div:first-child {
+    flex-basis: 0;
+}
+
+.contactUs .container .formInfo .form form .form-control:focus {
+    outline: none;
+    border-color: #80bdff;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #80bdff;
+}
+
+::placeholder {
+    font-size: 15px;
+    color: #202020;
+}
+
+.contactUs .container .formInfo .form form textarea {
+    padding: 13px;
+    padding-left: 25px;
+    font-size: 16px;
+    color: #8799a3
+}
+
+.contactUs .container .formInfo .form form div .form-control {
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    letter-spacing: normal;
+    border: 2px solid #eceef2;
+    border-radius: 0;
+}
+
+.contactUs .container .formInfo .form form div textarea {
+    /* border: 2px solid #eceef2; */
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+
+.contactUs .container .formInfo .form form div a {
+    display: inline-block;
+    background-color: #05c38a;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 48px;
+    margin-top: 20px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+.contactUs .container .formInfo .form form div a:hover {
+    cursor: pointer;
+    background-color: #f0316a;
+    border-color: #f0316a;
+    color: #fff;
+}
+
+.contactUs .container .formInfo .contact-info {
+    background-color: lightgreen;
+}
+
+#contHeading {
+    color: #0c95f8;
+}
+
+.contactUs .container .formInfo .contact-info p {
+    font-size: 17px;
+    text-align: left;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    color: #202020;
+    font-weight: normal;
+    margin-bottom: 25px;
+    opacity: 0.8;
+}
+
+.contactUs .container .formInfo .contact-info ul li {
+    list-style-type: none;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 22px;
+    display: flex;
+    align-items: center;
+    color: #202020;
+    opacity: 0.8;
+}
+
+.contactUs .container .formInfo .contact-info ul li i {
+    margin: 0 20px 8px 0;
+    font-size: 35px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.contactUs .container .formInfo .contact-info ul li span {
+    padding-right: 30px;
+}
+
+.contactUs .container .formInfo .contact-info ul li span:last-child {
+    padding-right: 0;
+}
+
+/* Contact Us Section CSS End */
