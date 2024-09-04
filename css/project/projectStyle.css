@@ -289,14 +289,22 @@ header .navigation {
     width: 49%;
 }
 
+.portfolioSection .container .portfolio .item1 .inner-img1 img {
+    float: left;
+    width: 50%;
+}
+
+.portfolioSection .container .portfolio .item1 .inner-img2 img {
+    float: right;
+    width: 49%; 
+}
+
 .portfolioSection .container .portfolio .item2 .img-portfolio img {
     width: 100%;
 }
 
 .portfolioSection .container .portfolio .item2 .text {
     border: 1px solid black;
-    position: relative;
-    bottom: 315px;
     text-align: center;
     letter-spacing: 0.5px;
 }
@@ -335,7 +343,17 @@ header .navigation {
 
 .portfolioSection .container .portfolio .item4 .item4-inner2 {
     display: flex;
-} 
+}
+
+.portfolioSection .container .portfolio .item4 .item4-inner1 img {
+    width: 100%;
+}
+
+.portfolioSection .container .portfolio .item4 .item4-inner2 img {
+    width: 50%;
+}
+
+
 
 .portfolioSection .mainQuote {
     background-color: #f0316a;
