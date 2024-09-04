@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* CSS Object-Fit Properties */
+
+.div {
+    border: 2px solid red;
+    height: 400px;
+    width: 400px;
+}
+
+.div img {
+    height: 300px;
+    width: 300px;
+    /* object-fit: contain; */
+    object-fit: cover;
+    /* object-fit: scale-down; */
+    /* object-fit: fill; */
+}
+
+/* CSS Float */
+
+img {
+    float: left;
+}
+
+.img-2 {
+    clear: both;
+}
+
+/* CSS Overflow */
+
+.overflow {
+    border: 2px solid red;
+    height: 150px;
+    width: 150px;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.scroll {
+    overflow: scroll;
+}
+
+.visible {
+    overflow: visible;
+}
+
+.overflow-x {
+    overflow-x: hidden;
+    /* overflow-x: visible; */
+    /* overflow-x: scroll; */
+}
+
+.overflow-y {
+    overflow-y: scroll;
+}
