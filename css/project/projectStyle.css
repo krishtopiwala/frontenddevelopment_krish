@@ -5,6 +5,12 @@
     font-family: 'Roboto';
 }
 
+header {
+    background-image: url(../../assets/Img/banner-before.jpg);
+    background-size: cover;
+    height: 700px;
+}
+
 .mainHeader {
     display: flex;
 }
@@ -12,7 +18,7 @@
 header .mainHeader .navigation {
     height: 100%;
     border: 2px solid red;
-    width: 13%;
+    width: 18%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -43,49 +49,51 @@ header .mainHeader .navigation .navbar .navlist li a {
 }
 
 header .mainHeader .navigation .copyright p {
-    padding-left: 35px;
+    padding-left: 30px;
+    font-size: 16px;
+    text-align: left;
+    color: #202020;
 }
 
-.background {
+header .mainHeader .navigation .copyright p span {
+    white-space: nowrap;
+}
+
+/* .background {
     border: 2px solid blue;
     width: 87%;
-}
+} */
 
-.background .hero-section {
-    background-image: url(../../assets/Img/banner-before.jpg);
-    background-size: cover;
-    height: 700px;
+.hero-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 700px;
 }
 
-.background .hero-section .logo img {
-    /* border: 1px solid green; */
-    position: relative;
-    bottom: 50px;
-}
-
-.background .hero-section .headingLine h1 {
+.hero-section .headingLine h1 {
     font-size: 74px;
     background-color: #ffffff;
     color: #202020;
     letter-spacing: 1px;
+    padding-inline: 14px;
     position: relative;
-    bottom: 20px;
+    top: 45px;
 }
 
-.background .hero-section .hero-line p {
+.hero-section .hero-line p {
     font-size: 22px;
     color: #fff;
     text-align: center;
     text-transform: capitalize;
     width: 610px;
     line-height: 31px;
+    position: relative;
+    top: 70px;
 }
 
-.background .hero-section .btn {
+.hero-section .btn {
     font-size: 18px;
     text-align: center;
     padding: 10px 45px;
@@ -95,10 +103,10 @@ header .mainHeader .navigation .copyright p {
     border-radius: 40px;
     line-height: 33px;
     position: relative;
-    top: 50px;
+    top: 120px;
 }
 
-.background .hero-section .btn:hover {
+.hero-section .btn:hover {
     cursor: pointer;
     background-color: #fff;
     color: #000;
