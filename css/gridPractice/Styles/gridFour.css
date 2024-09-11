@@ -1,0 +1,31 @@
+.container {
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: 100px 100px;
+    gap: 15px;
+}
+
+.items {
+    border: 2px solid red;
+}
+
+#item-1 {
+    background-color: #0071BC;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#item-2 {
+    background-color: #29ABE2;
+}
+
+#item-3 {
+    background-color: #29ABE2;
+}
+
+#item-4 {
+    background-color: #00A99D;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
