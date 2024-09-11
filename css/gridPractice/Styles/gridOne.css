@@ -1,7 +1,7 @@
 .grid-container {
     border: 2px solid black;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(4, auto);
     grid-template-rows: 200px 200px 200px;
 }
 
@@ -12,7 +12,24 @@
 
 #item1 {
     grid-row-start: 1;
-    grid-row-end: 4;
+    grid-row-end: 3;
     background-color: #F1463D;
 }
 
+#item2 {
+    background-color: #2CC5CF;
+}
+
+#item3 {
+    background-color: #D6B269;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+#item4 {
+    background-color: #D6B269;
+}
+
+#item5 {
+    background-color: #FFFFFF;
+}
