@@ -1,0 +1,18 @@
+.grid-container {
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 200px 200px 200px;
+}
+
+.items {
+    border: 1px solid red;
+    font-size: 25px;
+}
+
+#item1 {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: #F1463D;
+}
+

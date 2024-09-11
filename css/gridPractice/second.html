@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid 2</title>
+    <style>
+        .container {
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+        }
+
+        .items {
+            border: 2px solid red;
+        }
+
+        #item-1 {
+            grid-row-start: 1;
+            grid-row-end: 4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items" id="item-1">1</div>
+        <div class="items" id="item-2">2</div>
+        <div class="items" id="item-3">3</div>
+        <div class="items" id="item-4">4</div>
+    </div>
+</body>
+</html>
