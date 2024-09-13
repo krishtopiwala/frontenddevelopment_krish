@@ -24,11 +24,13 @@ header .mainHeader .navigation {
     justify-content: space-between;
     position: fixed;
     top: 0;
-    z-index: 5;
+    /* z-index: 5; */
+    /* background-color: #fff;
+    color: #000; */
 }
 
 header .mainHeader .navigation .navbar .navlist {
-    border: 2px solid greenyellow;
+    border: 2px solid brown;
     padding-left: 35px;
     /* padding-top: 120px; */
     text-align: left;    
