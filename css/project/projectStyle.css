@@ -24,7 +24,7 @@ header .mainHeader .navigation {
     justify-content: space-between;
     position: fixed;
     top: 0;
-    /* z-index: 5; */
+    z-index: 5;
     /* background-color: #fff;
     color: #000; */
 }
@@ -60,11 +60,6 @@ header .mainHeader .navigation .copyright p {
 header .mainHeader .navigation .copyright p span {
     white-space: nowrap;
 }
-
-/* .background {
-    border: 2px solid blue;
-    width: 87%;
-} */
 
 .hero-section {
     display: flex;
@@ -309,6 +304,36 @@ header .mainHeader .navigation .copyright p span {
 } 
 
 /* Portfolio Section CSS */
+
+.portfolio .items {
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.portfolio .items .item-1 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.portfolio .items .item-1 .inner-item1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.portfolio .items .item-4 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.portfolio .items .item-4 .in-item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.portfolio .items img {
+    object-fit: cover;
+}
 
 .portfolioSection .mainQuote {
     background-color: #f0316a;
