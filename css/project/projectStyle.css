@@ -309,6 +309,8 @@ header .mainHeader .navigation .copyright p span {
     border: 2px solid red;
     display: grid;
     grid-template-columns: repeat(2, auto);
+    position: relative;
+    background-color: violet;
 }
 
 .portfolio .items .item-1 {
@@ -331,7 +333,9 @@ header .mainHeader .navigation .copyright p span {
     grid-column-end: 3;
 }
 
-.portfolio .items img {
+.portfolio .items .portfolio-image {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
