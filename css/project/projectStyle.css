@@ -17,22 +17,76 @@ header {
 
 header .mainHeader .navigation {
     height: 100%;
-    border: 2px solid red;
-    width: 18%;
+    /* border: 2px solid red; */
+    width: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     position: fixed;
     top: 0;
     z-index: 5;
-    /* background-color: #fff;
-    color: #000; */
+    background-color: #fff;
+    color: #000;
+    box-shadow: 1px 0px 8px gray;
 }
 
-header .mainHeader .navigation .navbar .navlist {
+#toggleBar {
+    margin-top: 15px;
+    margin-right: 6px;
+    padding: 18px 24px;
+    display: inline-block;
+    font-size: 23px;
+    text-align: left;
+}
+
+header .mainHeader .navigation .header-social-icons .header-icons ul {
+    margin-bottom: 25px;
+}
+
+header .mainHeader .navigation .header-social-icons .header-icons ul li {
+    list-style-type: none;
+    /* padding: 5px 10px; */
+}
+
+header .mainHeader .navigation .header-social-icons .header-icons ul li a {
+    display: block;
+    text-decoration: none;
+    height: 42px;
+    width: 42px;
+    margin: 0px auto;
+    font-size: 18px;
+    text-align: center;
+    line-height: 42px;
+    color: #202020;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#header-facebook-icon:hover {
+    background-color: #4267b2;
+    color: #ffffff;
+}
+
+#header-twitter-icon:hover {
+    background-color: #00a7e6;
+    color: #ffffff;
+}
+
+#header-linkedin-icon:hover{
+    background-color: #1682ab;
+    color: #ffffff;
+}
+
+#header-instagram-icon:hover {
+    background-color: #C32AA3;
+    color: #ffffff;
+}
+
+
+/* header .mainHeader .navigation .navbar .navlist {
     border: 2px solid brown;
     padding-left: 35px;
-    /* padding-top: 120px; */
+    padding-top: 120px;
     text-align: left;    
 }
 
@@ -59,7 +113,7 @@ header .mainHeader .navigation .copyright p {
 
 header .mainHeader .navigation .copyright p span {
     white-space: nowrap;
-}
+} */
 
 .hero-section {
     display: flex;
@@ -112,15 +166,15 @@ header .mainHeader .navigation .copyright p span {
 /* Main Section CSS Starts */
 
 .container {
-    border: 2px solid yellowgreen;
-    width: 1024px;
+    /* border: 2px solid yellowgreen; */
+    width: 1140px;
     margin: 0px auto;
 }
 
 /* Do Section CSS */
 
 .container .about {
-    padding-top: 120px;
+    padding: 120px 0;
     text-align: center;
 }
 
@@ -157,7 +211,7 @@ header .mainHeader .navigation .copyright p span {
     /* border: 2px solid coral; */
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -225,7 +279,7 @@ header .mainHeader .navigation .copyright p span {
 
 .experienceSection {
     background-color: #6c30eb;
-    margin-top: 150px;
+    /* margin-top: 50px; */
     padding: 120px 0;
 }
 
@@ -306,7 +360,7 @@ header .mainHeader .navigation .copyright p span {
 /* Portfolio Section CSS */
 
 .portfolio .items {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: grid;
     grid-template-columns: repeat(2, auto);
     position: relative;
@@ -322,6 +376,12 @@ header .mainHeader .navigation .copyright p span {
     grid-row-start: 1;
     grid-row-end: 3;
 }
+
+.portfolio .items .item-2 .img,
+.portfolio .items .item-3 .img {
+    height: 100%;
+}
+
 
 .portfolio .items .item-4 {
     display: grid;
@@ -387,7 +447,6 @@ header .mainHeader .navigation .copyright p span {
 }
 
 .pricing-section .container .pricing-packages {
-    margin-top: 50px;
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: space-evenly;
@@ -495,14 +554,12 @@ header .mainHeader .navigation .copyright p span {
 /* Contact Us Section CSS Start */
 
 .contactUs {
-    border: 2px solid blue;
     padding-bottom: 120px;
 }
 
 .contactUs .container .formInfo {
     padding: 0 15px;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -513,7 +570,6 @@ header .mainHeader .navigation .copyright p span {
 
 .contactUs .container .formInfo .form {
     padding: 0 15px;
-    flex-basis: 550px;
 }
 
 .contactUs .container .formInfo .contact-heading {
@@ -596,7 +652,6 @@ textarea:focus {
 }
 
 .contactUs .container .formInfo .contact-info {
-    flex-basis: 410px;
     padding: 0 15px;
 }
 
