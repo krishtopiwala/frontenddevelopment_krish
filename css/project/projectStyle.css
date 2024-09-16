@@ -11,10 +11,6 @@ header {
     height: 700px;
 }
 
-.mainHeader {
-    display: flex;
-}
-
 header .mainHeader .navigation {
     height: 100%;
     /* border: 2px solid red; */
@@ -28,6 +24,10 @@ header .mainHeader .navigation {
     background-color: #fff;
     color: #000;
     box-shadow: 1px 0px 8px gray;
+}
+
+header .mainHeader .navigation .logoHeader img {
+    display: none;
 }
 
 #toggleBar {
@@ -131,6 +131,7 @@ header .mainHeader .navigation .copyright p span {
     padding-inline: 14px;
     position: relative;
     top: 45px;
+    text-align: center;
 }
 
 .hero-section .hero-line p {
@@ -183,6 +184,7 @@ header .mainHeader .navigation .copyright p span {
     font-size: 18px;
     letter-spacing: 0.5px;
     line-height: 25px;
+    color: #202020;
 }
 
 .container .about .do-title {
@@ -208,7 +210,6 @@ header .mainHeader .navigation .copyright p span {
 
 .container .about .do-section {
     margin-top: 65px;
-    /* border: 2px solid coral; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;

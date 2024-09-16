@@ -1,0 +1,78 @@
+@media (max-width: 768px) {
+
+    /* Header Section Media Query CSS */
+
+    header {
+        width: fit-content;
+        background-size: cover;
+    }
+
+    header .mainHeader .navigation {
+        width: 100%;
+        height: auto;
+    }
+
+    header .mainHeader .navigation .logoHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px 10px;
+    }
+    
+    header .mainHeader .navigation .logoHeader img {
+        display: block;
+        padding: 18px 10px;
+    }
+    
+    #toggleBar {
+        font-size: 30px;
+        margin-top: 0;
+        margin-right: 0;
+        padding: 18px 10px;
+    }
+
+    header .mainHeader .navigation .header-social-icons {
+        display: none;
+    }
+
+    .hero-section .logo {
+        position: relative;
+        left: 50px;
+        top: 25px;
+    }
+
+    .hero-section .headingLine h1 {
+        position: relative;
+        left: 60px;
+    }
+
+    .hero-section .btn {
+        margin: 0px auto;
+    }
+
+    /* Main Section Media Query CSS */
+
+    .container .about .quote {
+        font-size: 22px;
+        font-weight: 400;
+        color: #747474;
+    }
+
+    .container .about .quote p {
+        padding: 0 0 25px;
+    }
+
+    .container .about .about-para {
+        font-size: 23px;
+        line-height: 35px;
+    }
+
+    .container .about .do-section {
+        flex-direction: column;
+    }
+
+    .container .about .do-section .card-detail {
+        border: 2px solid red;
+        padding: 0 15px;
+    }
+}
