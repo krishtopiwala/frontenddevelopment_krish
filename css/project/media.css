@@ -91,4 +91,60 @@
         font-size: 23px;
         line-height: 32px;
     }
+
+    /* Experience Section Media Query CSS */
+
+    .experienceSection {
+        width: fit-content;
+    }
+
+    .experienceSection .container .experience {
+        flex-direction: column;
+    }
+
+    .experienceSection .container .experience .experience-info h3 {
+        font-size: 38px;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .experienceSection .container .experience .experience-info span {
+        margin: 20px auto;
+        width: 75px;
+        height: 5px;
+    }
+
+    .experienceSection .container .experience .experience-info p {
+        text-align: center;
+        font-size: 19px;
+    }
+
+    .experienceSection .container .experience .experience-numbers .numberCard {
+        flex-direction: column;
+        padding-block: 40px;
+    }
+
+    .experienceSection .container .experience .experience-numbers .numberCard .card {
+        padding: 40px 0;
+    }
+
+    .experienceSection .container .experience .experience-numbers .numberCard .card i {
+        font-size: 60px;
+        margin-left: 70px;
+    }
+
+    .experienceSection .container .experience .experience-numbers .numberCard .card h3 {
+        margin-top: 10px;
+        font-size: 50px;
+    }
+
+    .experienceSection .container .experience .experience-numbers .numberCard .card h5 {
+        font-size: 25px;
+    }
+
+    /* Portfolio Section Media Query CSS */
+
+    .portfolioSection .mainQuote {
+        width: fit-content;
+    }
 }

@@ -297,8 +297,8 @@ header .mainHeader .navigation .copyright p span {
 } 
 
 .experienceSection .container .experience .experience-numbers {
-    width: 50%;
-} 
+    width: 50%; 
+}
 
 .experienceSection .container .experience .experience-info h3 {
     font-size: 30px;
@@ -308,6 +308,7 @@ header .mainHeader .navigation .copyright p span {
     font-weight: normal;
     line-height: 45px;
     letter-spacing: 0.5px;
+    display: inline-block;
 }
 
 .experienceSection .container .experience .experience-info span {
@@ -326,10 +327,12 @@ header .mainHeader .navigation .copyright p span {
     letter-spacing: 0.5px;
     line-height: 25.6px;
     font-weight: normal;
+    display: inline-block;
 }
 
 .experienceSection .container .experience .experience-numbers .numberCard {
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
 }
