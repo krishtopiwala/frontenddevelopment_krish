@@ -452,7 +452,6 @@ header .mainHeader .navigation .copyright p span {
 
 .pricing-section .container .pricing-packages {
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
@@ -462,7 +461,8 @@ header .mainHeader .navigation .copyright p span {
 
 .pricing-section .container .padding {
     flex-basis: 320px;
-    padding-block: 40px;
+    padding-top: 80px;
+    padding-bottom: 40px;
 }
 
 .pricing-section .container .pricing-packages .package1 {
@@ -499,15 +499,17 @@ header .mainHeader .navigation .copyright p span {
     font-weight: normal;
 }
 
-.pricing-section .container .pricing-packages sup {
+.pricing-section .container .pricing-packages .price sup {
     font-size: 24px;
-    margin-right: 10px;
+    padding-right: 10px;
     vertical-align: middle;
+    font-weight: normal;
 }
 
-.pricing-section .container .pricing-packages sub {
+.pricing-section .container .pricing-packages .price sub {
     font-size: 15px;
     vertical-align: baseline;
+    font-weight: 300;
 }
 
 .pricing-section .container .pricing-packages .price {
@@ -515,11 +517,8 @@ header .mainHeader .navigation .copyright p span {
     font-size: 62px;
     letter-spacing: 0.5px;
     line-height: 25px;
-    padding: 30px 0; 
-}
-
-.pricing-section .container .pricing-packages ul li {
-    list-style-type: none;
+    padding: 30px 0;
+    font-weight: bold;
 }
 
 .pricing-section .container .pricing-packages .benefits {
@@ -527,9 +526,13 @@ header .mainHeader .navigation .copyright p span {
 }
 
 .pricing-section .container .pricing-packages .benefits li {
+    list-style-type: none;
     font-size: 16px;
     letter-spacing: 0.5px;
     padding: 5px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 25px;
 }
 
 .pricing-section .container .pricing-packages a {
@@ -550,9 +553,11 @@ header .mainHeader .navigation .copyright p span {
 }
 
 .pricing-section .map iframe {
+    width: 100%;
     padding: 0 15px;
     opacity: 0.8;
 }
+
 /* Pricing Section CSS End */
 
 /* Contact Us Section CSS Start */

@@ -147,4 +147,45 @@
     .portfolioSection .mainQuote {
         width: fit-content;
     }
+
+    /* Pricing Section Media Query CSS */
+
+    .pricing-section .container .pricing-packages {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .pricing-section .container .pricing-packages .package-heading {
+        font-size: 38px;
+    }
+
+    .pricing-section .container .pricing-packages .info {
+        font-size: 20px;
+        word-wrap: break-word;
+    }
+
+    .pricing-section .container .pricing-packages p {
+        padding-inline: 2px;
+    }
+
+    .pricing-section .container .pricing-packages .price sup {
+        font-size: 34px;
+    }
+
+    .pricing-section .container .pricing-packages .price sub {
+        font-size: 22px;
+    }
+
+    .pricing-section .container .pricing-packages .price {
+        font-size: 75px;
+    }
+
+    .pricing-section .container .pricing-packages .benefits li {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .pricing-section .container .pricing-packages a {
+        font-size: 22px;
+    }
 }
