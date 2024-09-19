@@ -228,4 +228,50 @@
         font-size: 22px;
         padding: 20px 310px;
     }
+
+    .contactUs .container .formInfo .contact-info p {
+        text-align: center;
+        font-size: 25px;
+        padding-inline: 175px;
+        line-height: 40px;
+    }
+
+    .contactUs .container .formInfo .contact-info ul li {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .contactUs .container .formInfo .contact-info ul li i {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .contactUs .container .formInfo .contact-info ul li span {
+        padding-right: 0;
+    }
+
+    /* Footer Media Query CSS */
+
+    .footer {
+        width: fit-content;
+    }
+
+    .footer .container .footer-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding-block: 50px;
+    }
+
+    .footer .container .footer-section .social-icons ul li i {
+        font-size: 25px;
+        padding: 15px 35px;
+    }
+
+    .footer .container .footer-section .copyright p {
+        font-size: 25px;
+    }
 }
