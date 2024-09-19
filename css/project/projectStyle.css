@@ -177,6 +177,8 @@ header .mainHeader .navigation .copyright p span {
 .container .about {
     padding: 120px 0;
     text-align: center;
+    letter-spacing: 0.5px;
+    color: #6b6b6b;
 }
 
 .container .about .quote {
@@ -618,13 +620,6 @@ textarea:focus {
     color: #202020;
 }
 
-.contactUs .container .formInfo .form form textarea {
-    padding: 13px;
-    padding-left: 25px;
-    font-size: 16px;
-    color: #8799a3
-}
-
 .contactUs .container .formInfo .form form div .form-control {
     padding: 20px;
     margin-bottom: 20px;
@@ -635,9 +630,12 @@ textarea:focus {
 }
 
 .contactUs .container .formInfo .form form div textarea {
-    /* border: 2px solid transparent; */
     border-radius: 0;
     margin-bottom: 20px;
+    padding: 13px;
+    padding-left: 25px;
+    font-size: 16px;
+    color: #8799a3
 }
 
 .contactUs .container .formInfo .form form div a {

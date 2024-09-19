@@ -188,4 +188,44 @@
     .pricing-section .container .pricing-packages a {
         font-size: 22px;
     }
+
+    /* Contact Us Section Media Query CSS */
+
+    .contactUs .container .formInfo {
+        flex-direction: column;
+        gap: 105px;
+    }
+
+    .contactUs .container .formInfo .contact-heading {
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .contactUs .container .formInfo .form form {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contactUs .container .formInfo .form form div .form-control {
+        display: block;
+        font-size: 22px;
+        border: 3px solid #eceef2;
+        padding-inline: 250px;
+        padding-block: 30px;
+    }
+
+    ::placeholder {
+        font-size: 22px;
+        text-align: left;
+    }
+
+    .contactUs .container .formInfo .form form div textarea {
+        padding-inline: 210px;
+        font-size: 22px;
+    }
+
+    .contactUs .container .formInfo .form form div a  {
+        font-size: 22px;
+        padding: 20px 310px;
+    }
 }
