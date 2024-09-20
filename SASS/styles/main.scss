@@ -1,0 +1,11 @@
+$redBgColor: red;
+$violetBgColor: violet;
+$blueBgColor: blue;
+$height: 300px;
+$width: 300px;
+
+.box {
+    height: $height;
+    width: $width;
+    background-color: $violetBgColor;
+}
