@@ -370,7 +370,6 @@ header .mainHeader .navigation .copyright p span {
     display: grid;
     grid-template-columns: repeat(2, auto);
     position: relative;
-    background-color: violet;
 }
 
 .portfolio .items .item-1 {
