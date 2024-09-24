@@ -1,0 +1,13 @@
+/* SASS Mixin */
+
+@mixin imgFluid($size) {
+    width: $size;
+    height: auto;
+}
+
+@mixin flexProperties() {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

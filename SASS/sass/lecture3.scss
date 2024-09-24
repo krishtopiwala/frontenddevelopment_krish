@@ -1,0 +1,28 @@
+@import './variables';
+@import './mixin';
+
+body {
+    margin: 0;
+}
+
+header {
+    @include flexProperties();
+    .navLogo img {
+        @include imgFluid($width1);
+    }
+    nav {
+        ul {
+            @include flexProperties();
+
+            li {
+                list-style-type: none;
+                padding: 0 25px;
+                @at-root
+                a {
+                    text-decoration: none;
+                    font-size: 18px;
+                }
+            } 
+        }
+    }
+}

@@ -1,0 +1,33 @@
+/* Background-Color Variables */
+/* Color Variables */
+/* Height Variables */
+/* Width Variables */
+/* SASS Mixin */
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header .navLogo img {
+  width: 250px;
+  height: auto;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul li {
+  list-style-type: none;
+  padding: 0 25px;
+}
+a {
+  text-decoration: none;
+  font-size: 18px;
+}/*# sourceMappingURL=lecture3.css.map */

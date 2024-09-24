@@ -1,25 +1,5 @@
 /* SASS Variables */
+/* @forward Rule */
 
-/* Height Variables */
-
-$height1: 250px;
-$height2: 350px;
-$height3: 450px;
-
-/* Width Variables */
-
-$width1: 250px;
-$width2: 350px;
-$width3: 450px;
-
-/* Background-Color Variables */
-
-$bgColor1: red;
-$bgColor2: orange;
-$bgColor3: yellow;
-
-/* Color Variables */
-
-$color1: blue;
-$color2: violet;
-$color3: orange;
+@forward './variables/colors';
+@forward './variables/sizes';
