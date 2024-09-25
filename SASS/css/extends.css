@@ -1,1 +1,30 @@
-/*# sourceMappingURL=extends.css.map */
+/* Background-Color Variables */
+/* Color Variables */
+/* Height Variables */
+/* Width Variables */
+body {
+  margin: 0;
+}
+
+#first {
+  background-color: red;
+  width: 250px;
+}
+
+#third, #second {
+  background-color: red;
+  width: 250px;
+  margin: 25px 0;
+  font-size: 20px;
+  padding: 30px 0;
+}
+
+#second {
+  background-color: orange;
+  width: 350px;
+}
+
+#third {
+  background-color: yellow;
+  width: 450px;
+}/*# sourceMappingURL=extends.css.map */

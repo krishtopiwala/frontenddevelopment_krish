@@ -1,0 +1,31 @@
+@import './variables';
+
+body {
+    margin: 0;
+}
+
+#first {
+    background-color: $bgColor1;
+    width: $width1;
+}
+
+%first {
+    background-color: $bgColor1;
+    width: $width1; 
+    margin: 25px 0;
+    font-size: 20px;
+    padding: 30px 0;
+}
+
+#second {
+    background-color: $bgColor2;
+    width: $width2;
+    
+    @extend %first
+}
+
+#third {
+    background-color: $bgColor3;
+    width: $width3;
+    @extend %first
+}
