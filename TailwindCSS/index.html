@@ -12,9 +12,51 @@
     <h1 class="text-center underline bg-red-500 text-white text-2xl font-semibold p-5 mb-5">This is heading</h1>
 
     <div class="border-2 border-solid border-black flex flex-col sm:flex-row items-center justify-evenly">
-        <div class="h-24 w-24 border-2 border-solid border-red-600 bg-violet-600 mb-3 mt-3 shadow-2xl shadow-red-400"></div>
+        <div class="h-24 w-24 border-2 border-solid border-red-600 bg-violet-600 mb-3 mt-3 shadow-2xl shadow-red-400">
+        </div>
         <div class="h-24 w-24 border-2 border-dashed border-purple-700 bg-yellow-300 mb-3 mt-3 hover:scale-x-150"></div>
         <div class="h-24 w-24 border-2 border-dotted border-red-600 bg-blue-400 mb-3 mt-3"></div>
+    </div>
+
+    <h2 class="text-3xl text-center mt-5 underline font-bold text-purple-500 p-5">Odd & Even in Tailwind CSS</h2>
+
+    <div class="flex justify-center">
+        <table class="mt-5">
+            <thead>
+                <tr class="border-2 border-black bg-indigo-200 text-black">
+                    <th class="p-4 text-center text-lg uppercase">Name</th>
+                    <th class="p-4 text-center text-lg uppercase">Title</th>
+                    <th class="p-4 text-center text-lg uppercase">Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="border-2 border-black odd:bg-white even:bg-slate-200">
+                    <td class="p-4 text-center font-semibold">Jane Copper</td>
+                    <td class="p-4 text-center font-semibold">Regional Paradigm Technician</td>
+                    <td class="p-4 text-center font-semibold">jane.cooper@example.com</td>
+                </tr>
+                <tr class="border-2 border-black odd:bg-white even:bg-slate-200">
+                    <td class="p-4 text-center font-semibold">Cody Fisher</td>
+                    <td class="p-4 text-center font-semibold">Product Directives Officer</td>
+                    <td class="p-4 text-center font-semibold">cody.fisher@example.com</td>
+                </tr>
+                <tr class="border-2 border-black odd:bg-white even:bg-slate-200">
+                    <td class="p-4 text-center font-semibold">Leonard Krasner</td>
+                    <td class="p-4 text-center font-semibold">Senior Designer</td>
+                    <td class="p-4 text-center font-semibold">leonard.krasner@example.com</td>
+                </tr>
+                <tr class="border-2 border-black odd:bg-white even:bg-slate-200">
+                    <td class="p-4 text-center font-semibold">Emily Selman</td>
+                    <td class="p-4 text-center font-semibold">Hardware Engineering</td>
+                    <td class="p-4 text-center font-semibold">emily.selman@example.com</td>
+                </tr>
+                <tr class="border-2 border-black odd:bg-white even:bg-slate-200">
+                    <td class="p-4 text-center font-semibold">Anna Roberts</td>
+                    <td class="p-4 text-center font-semibold">Chief Strategy Officer</td>
+                    <td class="p-4 text-center font-semibold">anna.roberts@example.com</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 
 </body>
