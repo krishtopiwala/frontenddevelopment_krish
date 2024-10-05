@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS Grid</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body>
+    <div class="container mx-auto">
+        <h2 class="text-center text-2xl font-bold mt-5">Tailwind CSS Grid</h2>
+        
+        <div class="bg-indigo-400 text-white grid grid-cols-3 text-center">
+            <div class="border-2 border-solid border-black bg-red-500 text-3xl">1</div>
+            <div class="border-2 border-solid border-black bg-red-500 text-3xl">2</div>
+            <div class="border-2 border-solid border-black bg-red-500 text-3xl">3</div>
+            <div class="border-2 border-solid border-black bg-yellow-500 text-3xl col-span-2">4</div>
+            <div class="border-2 border-solid border-black bg-red-500 text-3xl">5</div>
+            <div class="border-2 border-solid border-black bg-red-500 text-3xl">6</div>
+            <div class="border-2 border-solid border-black bg-red-500 text-3xl">7</div>
+            <div class="border-2 border-solid border-black bg-red-500 text-3xl">8</div>
+            <div class="border-2 border-solid border-black bg-yellow-500 text-3xl col-span-3">9</div>
+        </div>
+        
+        <div class="bg-indigo-400 text-white grid grid-flow-col grid-rows-4 text-center mt-10">
+            <div class="border-2 border-solid border-black bg-blue-500 text-3xl">1</div>
+            <div class="border-2 border-solid border-black bg-orange-500 text-3xl row-span-3">2</div>
+            <div class="border-2 border-solid border-black bg-blue-500 text-3xl">3</div>
+            <div class="border-2 border-solid border-black bg-blue-500 text-3xl">4</div>
+            <div class="border-2 border-solid border-black bg-blue-500 text-3xl">5</div>
+            <div class="border-2 border-solid border-black bg-blue-500 text-3xl">6</div>
+            <div class="border-2 border-solid border-black bg-blue-500 text-3xl">7</div>
+            <div class="border-2 border-solid border-black bg-orange-500 text-3xl row-span-2">8</div>
+            <div class="border-2 border-solid border-black bg-blue-500 text-3xl">9</div>
+        </div>
+    </div>
+
+    <div class="border-2 border-solid border-black mt-10"></div>
+
+    <div>
+        
+    </div>
+</body>
+</html>
