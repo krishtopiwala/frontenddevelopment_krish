@@ -4,8 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Components Practice</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/output.css">
 </head>
 <body>
-    
+    <!-- 4 Columns Footer Component -->
+
+    <div>
+        <div class="container mx-auto ">
+            <div class="flex flex-row justify-between">
+                <div>
+                    <h2 class="text-xl font-semibold text-left py-3">Company</h2>
+                    <ul>
+                        <li class="py-1"><a href="javascript: void(0)" class="text-left text-gray-500">Brand</a></li>
+                        <li class="py-1"><a href="javascript: void(0)" class="text-left text-gray-500">Contact Us</a></li>
+                        <li class="py-1"><a href="javascript: void(0)" class="text-left text-gray-500">Blog</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="text-xl font-semibold text-left py-3">Legal</h2>
+                    <ul>
+                        <li class="py-1"><a href="javascript: void(0)" class="text-left text-gray-500">Privacy</a></li>
+                        <li class="py-1"><a href="javascript: void(0)" class="text-left text-gray-500">Terms</a></li>
+                        <li class="py-1"><a href="javascript: void(0)" class="text-left text-gray-500">Support</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="text-xl font-semibold text-left py-3">Products</h2>
+                    <ul>
+                        <li class="py-1"><a href="javascript: void(0)" class="text-left text-gray-500">Latest features</a></li>
+                        <li class="py-1"><a href="javascript: void(0)" class="text-left text-gray-500">Product roadmap</a></li>
+                        <li class="py-1"><a href="javascript: void(0)" class="text-left text-gray-500">Knowledge base</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="text-xl font-semibold text-left py-3">Account</h2>
+                    <div class="flex flex-col py-1">
+                        <button class="border-[1.5px] border-solid border-violet-500 px-5 py-2 rounded-md font-semibold">Sign in</button>
+                        <button class="bg-violet-500 text-white font-semibold px-5 py-2 rounded-md mt-2">Sign up</button>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="mt-14">
+
+            <h3 class="text-center text-gray-500 my-10">Sitemap. Privacy &copy; Robowolf, sanit-Petersburg</h3>
+            <!-- Social Icons -->
+
+            <div>
+                <ul class="flex flex-row justify-center gap-5">
+                    <li>
+                        <a href="javascript: void(0)" class="bg-gray-300 rounded-full py-4 px-4">
+                            <i class="fa-brands fa-twitter text-xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript: void(0)" class="bg-gray-300 rounded-full py-4 px-4">
+                            <i class="fa-brands fa-linkedin-in text-xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript: void(0)" class="bg-gray-300 rounded-full py-4 px-4">
+                            <i class="fa-brands fa-google text-xl"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
