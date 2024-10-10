@@ -2,10 +2,11 @@
 module.exports = {
   content: ["./*.html"],
   theme: {
-    // colors: {
-    //   'green': '#13ce66',
-    // },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'image1': "url('./src/pexels.jpg')"
+      },
+    },
   },
   plugins: [],
 }
