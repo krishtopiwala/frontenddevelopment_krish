@@ -3,8 +3,8 @@ module.exports = {
   content: ["./*.html"],
   theme: {
     extend: {
-      backgroundImage: {
-        'image1': "url('./src/pexels.jpg')"
+      width: {
+        '85': '360px'
       },
     },
   },
