@@ -11,6 +11,9 @@ module.exports = {
         '104': '535px',
         '105': '680px'
       },
+      flexBasis: {
+        '75': '300px'
+      },
     },
   },
   plugins: [],
