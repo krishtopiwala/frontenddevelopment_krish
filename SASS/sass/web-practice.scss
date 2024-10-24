@@ -1,0 +1,51 @@
+@import 'root';
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@mixin flex-box($flex-direction, $justify-content, $align-items) {
+    display: flex;
+    flex-direction: $flex-direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+%list-none {
+    list-style-type: none;
+    padding: 0 15px;
+}
+
+.container {
+    width: $width4;
+    border: 2px solid black;
+    margin: 0px auto;
+    font-family: "Roboto", sans-serif;
+
+
+    .navbar-section {
+        @include flex-box(row, space-between, center);
+
+        .heading {
+            span {
+                font-size: 12px;
+                font-weight: $font-weight-800;
+                color: $heading-span-color;
+            }
+        }
+
+        .navbar-wrapper {
+            @include flex-box(row, space-evenly, center);
+
+            ul {
+                @include flex-box(row, center, center);
+
+                li {
+                    @extend %list-none;
+                }
+            }
+        }
+    }
+}
