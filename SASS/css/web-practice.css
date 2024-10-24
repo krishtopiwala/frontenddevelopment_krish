@@ -1,0 +1,44 @@
+/* Height Variables */
+/* Width Variables */
+/* Background-Color Variables */
+/* Color Variables */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container .navbar-section .navbar-wrapper ul li {
+  list-style-type: none;
+  padding: 0 15px;
+}
+
+.container {
+  width: 1024px;
+  border: 2px solid black;
+  margin: 0px auto;
+  font-family: "Roboto", sans-serif;
+}
+.container .navbar-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .navbar-section .heading span {
+  font-size: 12px;
+  font-weight: 800;
+  color: #1E50BC;
+}
+.container .navbar-section .navbar-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container .navbar-section .navbar-wrapper ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=web-practice.css.map */
