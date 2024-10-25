@@ -55,7 +55,7 @@
     }
 }
 
-// Relational Operator
+// Relational / Comparison Operator
 
 {
     let temp1 = 100;
@@ -78,3 +78,29 @@
         console.log("temp1 is greater than or equal to temp2");
     }
 }
+
+// Bitwise Operator
+
+{
+    let bitwise1 = 0;
+    let bitwise2 = 1;
+
+    console.log(bitwise1 & bitwise2);
+    console.log(bitwise1 | bitwise2);
+    console.log(bitwise1 ^ bitwise2);
+}
+
+// Unary Operator
+
+{
+    let unary = 5;
+    console.log(++unary);
+    console.log(unary++);
+    console.log(unary++);
+    console.log(unary);
+}
+
+// Ternary Operator
+
+var age = 10;
+var result = (age >= 18) ? console.log("You can vote") : console.log("Can not vote");
