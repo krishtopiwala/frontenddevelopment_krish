@@ -18,6 +18,16 @@
     padding: 0 15px;
 }
 
+%button-style {
+    background: none;
+    padding: 13px 20px;
+    text-transform: uppercase;
+    font-size: 17px;
+    background-color: $common-color;
+    color: $white;
+    border: none;
+}
+
 .container {
     width: $width4;
     border: 2px solid black;
@@ -27,12 +37,13 @@
 
     .navbar-section {
         @include flex-box(row, space-between, center);
+        padding: 15px 0;
 
         .heading {
             span {
                 font-size: 12px;
                 font-weight: $font-weight-800;
-                color: $heading-span-color;
+                color: $common-color;
             }
         }
 
@@ -44,8 +55,85 @@
 
                 li {
                     @extend %list-none;
+
+                    a {
+                        text-decoration: none;
+                        color: $black-color;
+                        font-weight: $font-weight-600;
+
+                        &:hover {
+                            color: $common-color;
+                        }
+
+                        i {
+                            font-size: 20px;
+                            font-weight: $font-weight-100;
+                            color: $gray-shade;
+
+                            &:hover {
+                                color: $common-color;
+                            }
+                        }
+                    }
+                }
+            }
+
+            div {
+                button {
+                    @extend %button-style;
+
+                    i {
+                        padding-right: 10px;
+                    }
+                }
+                span {
+                    display: none;
                 }
             }
         }
     }
+
+    .main-section {
+        @include flex-box(row, space-between, center);
+        margin: 20px 0;
+
+        .hero-left {
+            border: 4px solid $common-color;
+            padding: 50px 0;
+
+            h1 {
+                font-size: 70px;
+                color: $common-color;
+                width: $width3;
+                font-weight: $font-weight-700;
+            }
+            
+            p {
+                color: #7D7D7D;
+                font-size: 20px;
+                width: 460px;
+                margin: 25px 0;
+                line-height: 30px;
+            }
+
+            button {
+                @extend %button-style;
+            }
+        }
+
+        .hero-right {
+            img {
+                width: $width2;
+                object-fit: cover;
+            }
+        }
+    }
 }
+
+// Media Queries
+
+/* @media (max-width: 768px) {
+    .navbar-section {
+        flex-direction: column;
+    }
+} */
