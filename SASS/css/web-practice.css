@@ -82,10 +82,6 @@
   align-items: center;
   margin: 20px 0;
 }
-.container .main-section .hero-left {
-  border: 4px solid #1E50BC;
-  padding: 50px 0;
-}
 .container .main-section .hero-left h1 {
   font-size: 70px;
   color: #1E50BC;
@@ -103,6 +99,75 @@
   width: 350px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.container .leverage-section .leverage-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: start;
+}
+.container .leverage-section .leverage-wrapper .img-section {
+  box-shadow: 0px 0px 8px gray;
+}
+.container .leverage-section .leverage-wrapper .img-section img {
+  border: 2px solid red;
+}
+.container .leverage-section .leverage-wrapper .img-section span {
+  display: inline-block;
+  background-color: #1E50BC;
+}
+.container .leverage-section .leverage-wrapper .img-section span i {
+  color: #fff;
+}
+.container .leverage-section .leverage-wrapper .text-section {
+  padding: 15px;
+}
+.container .leverage-section .leverage-wrapper .text-section .text-section-line {
+  display: inline-block;
+  background-image: linear-gradient(to right, #1A84DC, #1E50BC);
+  width: 50px;
+  height: 5px;
+}
+.container .leverage-section .leverage-wrapper .text-section h1 {
+  font-size: 45px;
+  margin: 20px 0;
+}
+.container .leverage-section .leverage-wrapper .text-section .text-para {
+  color: #4b5563;
+  width: 510px;
+  line-height: 22px;
+  margin: 40px 0;
+  font-size: 18px;
+}
+.container .leverage-section .leverage-wrapper .text-section .inner-content {
+  margin-top: 70px;
+}
+.container .leverage-section .leverage-wrapper .text-section .inner-content div {
+  padding-left: 15px;
+}
+.container .leverage-section .leverage-wrapper .text-section .inner-content div span {
+  float: left;
+}
+.container .leverage-section .leverage-wrapper .text-section .inner-content div span i {
+  display: inline-block;
+  font-size: 50px;
+  color: #1E50BC;
+}
+.container .leverage-section .leverage-wrapper .text-section .inner-content div h3 {
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  padding-left: 35px;
+  display: inline-block;
+}
+.container .leverage-section .leverage-wrapper .text-section .inner-content div p {
+  color: #6b7280;
+  font-size: 17px;
+  width: 420px;
+  margin: 20px 0;
+  padding-left: 90px;
+}
+.container .leverage-section .leverage-wrapper .text-section .inner-content div .clear {
+  clear: both;
 }
 
 /* @media (max-width: 768px) {
