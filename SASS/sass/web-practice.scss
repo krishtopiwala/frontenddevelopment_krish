@@ -13,6 +13,11 @@
     align-items: $align-items;
 }
 
+@mixin content-left {
+    padding-left: 35px;
+    display: inline-block;
+}
+
 %list-none {
     list-style-type: none;
     padding: 0 15px;
@@ -86,6 +91,7 @@
                         padding-right: 10px;
                     }
                 }
+
                 span {
                     display: none;
                 }
@@ -98,16 +104,13 @@
         margin: 20px 0;
 
         .hero-left {
-            border: 4px solid $common-color;
-            padding: 50px 0;
-
             h1 {
                 font-size: 70px;
                 color: $common-color;
                 width: $width3;
                 font-weight: $font-weight-700;
             }
-            
+
             p {
                 color: #7D7D7D;
                 font-size: 20px;
@@ -125,6 +128,91 @@
             img {
                 width: $width2;
                 object-fit: cover;
+            }
+        }
+    }
+
+    .leverage-section {
+        .leverage-wrapper {
+            @include flex-box(row, space-around, start);
+
+            .img-section {
+                box-shadow: 0px 0px 8px gray;
+
+                img {
+                    border: 2px solid red;
+                }
+
+                span {
+                    display: inline-block;
+                    background-color: $common-color;
+                    // padding: 25px 70px;
+
+                    i {
+                        // font-size: 70px;
+                        color: $white;
+                    }
+                }
+            }
+
+            .text-section {
+                padding: 15px;
+
+                .text-section-line {
+                    display: inline-block;
+                    // border: 4px solid linear-gradient(to right, #1E50BC);
+                    background-image: linear-gradient(to right, #1A84DC, #1E50BC);
+                    width: 50px;
+                    height: 5px;
+                }
+
+                h1 {
+                    font-size: 45px;
+                    margin: 20px 0;
+                }
+
+                .text-para {
+                    color: $text-gray-600;
+                    width: $paraWidth;
+                    line-height: 22px;
+                    margin: 40px 0;
+                    font-size: 18px;
+                }
+
+                .inner-content {
+                    margin-top: 70px;
+
+                    div {
+                        padding-left: 15px;
+                        span {
+                            float: left;
+
+                            i {
+                                display: inline-block;
+                                font-size: 50px;
+                                color: $common-color;
+                            }
+                        }
+
+                        h3 {
+                            font-size: 20px;
+                            letter-spacing: 0.8px;
+                            @include content-left();
+                        }
+
+                        p {
+                            color: #6b7280;
+                            font-size: 17px;
+                            width: 420px;
+                            margin: 20px 0;
+                            padding-left: 90px;
+                        }
+
+                        .clear {
+                            clear: both;
+                        }
+                    }
+                }
             }
         }
     }
