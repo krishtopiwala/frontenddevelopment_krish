@@ -35,7 +35,6 @@
 
 .container {
     width: $width4;
-    border: 2px solid black;
     margin: 0px auto;
     font-family: "Roboto", sans-serif;
 
@@ -138,19 +137,21 @@
 
             .img-section {
                 box-shadow: 0px 0px 8px gray;
-
-                img {
-                    border: 2px solid red;
-                }
+                position: relative;
 
                 span {
                     display: inline-block;
-                    background-color: $common-color;
-                    // padding: 25px 70px;
+                    background-color: #1E50BC;
+                    position: absolute;
+                    bottom: 70px;
+                    right: 55px;
+                    padding: 15px 14px;
+                    border-radius: 100px;
 
                     i {
-                        // font-size: 70px;
-                        color: $white;
+                        font-size: 70px;
+                        color: #fff;
+                        padding-left: 10px;
                     }
                 }
             }
