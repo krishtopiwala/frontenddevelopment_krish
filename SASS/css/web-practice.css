@@ -25,7 +25,6 @@
 
 .container {
   width: 1200px;
-  border: 2px solid black;
   margin: 0px auto;
   font-family: "Roboto", sans-serif;
 }
@@ -108,16 +107,21 @@
 }
 .container .leverage-section .leverage-wrapper .img-section {
   box-shadow: 0px 0px 8px gray;
-}
-.container .leverage-section .leverage-wrapper .img-section img {
-  border: 2px solid red;
+  position: relative;
 }
 .container .leverage-section .leverage-wrapper .img-section span {
   display: inline-block;
   background-color: #1E50BC;
+  position: absolute;
+  bottom: 70px;
+  right: 55px;
+  padding: 15px 14px;
+  border-radius: 100px;
 }
 .container .leverage-section .leverage-wrapper .img-section span i {
+  font-size: 70px;
   color: #fff;
+  padding-left: 10px;
 }
 .container .leverage-section .leverage-wrapper .text-section {
   padding: 15px;
