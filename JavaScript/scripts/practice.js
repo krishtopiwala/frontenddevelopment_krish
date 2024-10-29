@@ -29,6 +29,18 @@ let power = 3;
 
 console.log(`Power of a number ${value} is ${value ** power}`);
 
+// 6. Combination of Arithmetic Operators
+
+{
+    console.log(5 + 5);
+    console.log(25 - 5);
+    console.log(25 * 25);
+    console.log(10 / 5);
+    console.log(10 % 5);
+    console.log(12 ** 2);
+}
+
+
 // 7.Comparing Numbers [5 number]
 
 let n1 = 10;
