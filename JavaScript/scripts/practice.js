@@ -70,4 +70,5 @@ if (n1 > n2) {
     console.log(compareY === str);
     // console.log(typeof ud);
     console.log(ud === value);
+    console.log("0" === false);
 }
