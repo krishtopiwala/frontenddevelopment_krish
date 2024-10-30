@@ -55,3 +55,19 @@ if (n1 > n2) {
 } else {
     console.log("n1 is not equal to n2");
 }
+
+// 9.Comparing Different Types [4 types]
+
+{
+    let compareX = 10;
+    let compareY = "10";
+    let str = "10";
+    let ud;
+    let value = null;
+
+    console.log(compareX == compareY);
+    console.log(compareX === compareY);
+    console.log(compareY === str);
+    // console.log(typeof ud);
+    console.log(ud === value);
+}
