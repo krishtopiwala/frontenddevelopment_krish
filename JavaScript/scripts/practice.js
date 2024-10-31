@@ -72,3 +72,26 @@ if (n1 > n2) {
     console.log(ud === value);
     console.log("0" === false);
 }
+
+// 10. Using Multiple Operators [4 types]
+
+{
+    console.log(5 + 2 - 3);
+    console.log((10 + 20) * 10);
+
+    let a = 15;
+    let b = 700;
+    let c = 92;
+    
+    if ((a > b) && (a > c)) {
+        console.log("a is greater than b and c");
+    } else if ((b > a) && (b > c)) {
+        console.log("b is greater than a and c");
+    } else if ((c > a) && (c > b)) {
+        console.log("c is greater than a and b");
+    } else {
+        console.log("Invalid");
+    }
+
+    console.log((8 * 6) + (79 / 3));
+}
