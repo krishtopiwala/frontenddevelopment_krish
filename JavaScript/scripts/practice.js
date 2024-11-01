@@ -56,6 +56,16 @@ if (n1 > n2) {
     console.log("n1 is not equal to n2");
 }
 
+// 8.Comparing Strings [5 String]
+
+{
+    let val1 = "javascript";
+    let val2 = "Javascript";
+
+    console.log(val1 == val2);
+    console.log(val1 === val2);
+}
+
 // 9.Comparing Different Types [4 types]
 
 {
