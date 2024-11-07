@@ -108,3 +108,20 @@ switch (week) {
     default:
         console.log("Invalid week day");
 }
+
+// practice question
+
+{
+    let totalPurchase = 10;
+    let premiumMember = true;
+
+    if (totalPurchase >= 100 && premiumMember) {
+        console.log("You will get 20% discount");
+    } else if (totalPurchase >= 100 && !premiumMember) {
+        console.log("You will get 10% discount");
+    } else if (totalPurchase < 100 && premiumMember) {
+        console.log("You will get 5% discount");
+    } else if (totalPurchase < 100 && !premiumMember) {
+        console.log("You will get 0% discount");
+    }
+}
