@@ -130,10 +130,9 @@ switch (week) {
     let n1 = prompt("enter any number less than 100 but greater than 0");
     let randomNumber = Math.round((Math.random() * 100) + 1);
 
-    if ( n1 === randomNumber) {
+    if (n1 === randomNumber) {
         alert("You guess correct number");
     } else {
         alert("Try again");
-        
     }
 }
