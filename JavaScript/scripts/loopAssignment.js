@@ -75,5 +75,5 @@
             countVowels++;
         }
     }
-    console.log(`Vowels ${countVowels}`);
+    console.log(`Vowels: ${countVowels}`);
 }
