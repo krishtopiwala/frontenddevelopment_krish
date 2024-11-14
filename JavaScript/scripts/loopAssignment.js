@@ -64,6 +64,33 @@
     }
 }
 
+// 6. Write a program that calculates the sum of all elements in an array.
+
+{
+    let numArray = [10, 20, 30, 40, 50];
+    let sum = 0;
+
+    for (let num of numArray) {
+        sum += num;
+    }
+    console.log(`Sum of all elements of array ${sum}`);
+}
+
+// 7. Write a program that finds the largest number in an array.
+
+{
+    let arr = [5, 15, 2, 546, 85];
+    let largest = 0;
+
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > largest) {
+            largest = arr[i];
+        }
+    }
+
+    console.log(`Largest number in an array ${largest}`);
+}
+
 // 8. Write a program that counts the number of vowels in a given string.
 
 {
