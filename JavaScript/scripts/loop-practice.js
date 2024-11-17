@@ -87,3 +87,17 @@
         }
     }
 }
+
+// To break outer loop
+
+{
+    demo:for (let i = 1; i <= 5; i++) {
+        console.log(`Main Loop: ${i}`);
+        for (let j = 1; j <= 5; j++) {
+            if (j == 3) {
+                break demo;
+            }
+            console.log(`Nested Loop: ${j}`);
+        }
+    }
+}
