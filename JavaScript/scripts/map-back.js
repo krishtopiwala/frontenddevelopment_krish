@@ -36,3 +36,6 @@ console.log(iterator.next().value);
 
 console.log(map.delete("item2"));
 console.log(map);
+
+const keyIterator = map.keys();
+// console.log(keyIterator.next().value);
