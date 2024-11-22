@@ -13,6 +13,7 @@
     console.log(str1.startsWith("Good"));
     console.log(word.indexOf("ld"));
     console.log(str2.padEnd(10, '.'));
+    console.log(word.padEnd(15, '!'));
     console.log(str1.padStart(6, "@"));
     console.log(str1.repeat(3));
     console.log(word.replace("World", "JS"));
