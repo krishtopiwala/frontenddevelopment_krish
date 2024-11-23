@@ -35,4 +35,39 @@
     console.log(wd.slice(8, 15));
     console.log(wd.slice(-10, -4));
     console.log(wd.substring(3, 10));
+
+    {
+        // Match 
+
+        let str = "This is JavaScript Match";
+        let regex = /[A-Z]/g;
+
+        console.log(str.match(regex));
+    }
+
+    // MatchAll
+
+    {
+        let str = "This is JavaScript which is client side scripting language";
+        let regex = /[A-Z]/g;
+
+        let matchAll = [...str.matchAll(regex)];
+        console.log(matchAll);
+    }
+
+    // Spread Operator
+
+    {
+        // let arr1 = [1, 2, 3];
+        // let arr2 = [4, 5, 6];
+
+        
+        // console.log(arr1.concat(arr2));
+        // let arr3 = [...arr1];
+        // let arr4 = arr1;
+        // arr1[1] = 22;
+        
+        // console.log(arr3);
+        // console.log(arr4);        
+    }
 }
