@@ -43,6 +43,7 @@
         let regex = /[A-Z]/g;
 
         console.log(str.match(regex));
+        console.log(str.match('i'));
     }
 
     // MatchAll
@@ -58,16 +59,18 @@
     // Spread Operator
 
     {
-        // let arr1 = [1, 2, 3];
-        // let arr2 = [4, 5, 6];
+        let arr1 = [1, 2, 3];
+        let arr2 = [4, 5, 6];
 
+        console.log(arr1.concat(arr2));
         
-        // console.log(arr1.concat(arr2));
-        // let arr3 = [...arr1];
-        // let arr4 = arr1;
-        // arr1[1] = 22;
+        arr1[2] = 33;
+        let arr3 = [...arr1];
+        let arr4 = arr1;
+        arr1[1] = 22;
         
-        // console.log(arr3);
-        // console.log(arr4);        
+        console.log(arr1.concat(arr2));
+        console.log(arr3);
+        console.log(arr4);        
     }
 }
