@@ -46,4 +46,11 @@
 
     let math10 = Math.min(256, 45, 5486, 5, -6);
     console.log(math10);
+
+    // Math.log10
+
+    console.log(Math.log10(1732));
+    console.log(Math.log10(229));
+    console.log(Math.log10(29));
+    console.log(Math.log10(3));
 }
