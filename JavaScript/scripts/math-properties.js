@@ -53,4 +53,17 @@
     console.log(Math.log10(229));
     console.log(Math.log10(29));
     console.log(Math.log10(3));
+
+    // for sin cos tan need to find radian
+
+    // radian = angle * PI / 180
+    
+    console.log(Math.sin((90 * 3.14) / 180));
+    console.log(Math.sin((30 * 3.14) / 180));
+    console.log(Math.sin((0 * 3.14) / 180));
+
+    console.log(Math.cos((0 * 3.14) / 180));
+    console.log(Math.tan((90 * 3.14) / 180));
+    console.log(Math.tan((45 * 3.14) / 180));
+    console.log(Math.tan((0 * 3.14) / 180));
 }
