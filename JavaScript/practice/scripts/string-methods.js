@@ -1,6 +1,16 @@
 // String Methods
 
 {
+    // Q-1
+
+    let str = "Hello World";
+    let strSplit = str.split('');
+    let reverseStr = strSplit.reverse();
+    let joinStr = reverseStr.join('');
+    console.log(joinStr);
+}
+
+{
     // Q-2
 
     let str = "Hello World";
@@ -15,6 +25,31 @@
 
     let str = "This is a JavaScript. It is strings in JavaScript";
     console.log(str.includes("JavaScript"));
+}
+
+{
+    // Q-4
+
+    let newString = "how are you?";
+    let splitString = newString.split(' ');
+    
+    console.log(splitString);
+
+    for (let i = 0; i < splitString.length; i++) {
+        splitString[i] = splitString[i][0].toUpperCase() + splitString[i].substring(1);
+    }
+    
+    console.log(splitString.join(' '));
+}
+
+{
+    // Q-5
+
+    let replaceStr = "This is HTML. HTML stands for Hyper Text Markup Language";
+        let regex = /HTML/g;
+
+        let repl = replaceStr.match(regex).toString();
+        console.log(repl.replace("CSS"));
 }
 
 {
