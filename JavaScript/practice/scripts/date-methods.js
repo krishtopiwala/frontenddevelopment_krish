@@ -88,7 +88,7 @@
     let countdownTimer = new Date();
     console.log(countdownTimer.getHours() + " " + countdownTimer.getMinutes());
 
-    if ((countdownTimer.getHours() == 14) && (countdownTimer.getMinutes() == 28)) {
+    if ((countdownTimer.getHours() == 15) && (countdownTimer.getMinutes() == 30)) {
         console.log("Happy New Year");
     }
 }
