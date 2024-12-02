@@ -156,15 +156,15 @@
 
     // let copyWithinArray = ["🍎", "🍊", "🥭", "🍓", "🍒", "🍉"];
     // console.log(copyWithinArray);
-    // console.log(copyWithinArray.copyWithin(2));
-    // console.log(copyWithinArray.copyWithin(1));
-    // console.log(copyWithinArray.copyWithin(2, 4));
-    // console.log(copyWithinArray.copyWithin(2, 2));
+    console.log(copyWithinArray.copyWithin(2));
+    console.log(copyWithinArray.copyWithin(1));
+    console.log(copyWithinArray.copyWithin(2, 4));
+    console.log(copyWithinArray.copyWithin(2, 2));
     // console.log(copyWithinArray.copyWithin(2, 0, 1));
                     
     let copyWithinArray = [10, 15, 20, 25, 30, 35, 40, 45];
-    console.log(copyWithinArray.copyWithin(2));
-    console.log(copyWithinArray.copyWithin(0));
-    console.log(copyWithinArray.copyWithin(1, 3));
+    // console.log(copyWithinArray.copyWithin(2));
+    // console.log(copyWithinArray.copyWithin(0));
+    // console.log(copyWithinArray.copyWithin(1, 3));
     console.log(copyWithinArray.copyWithin(1, 2, 5));
 }
