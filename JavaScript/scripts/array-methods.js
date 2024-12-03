@@ -154,7 +154,7 @@
 {
     // Array.copyWithin()
 
-    // let copyWithinArray = ["🍎", "🍊", "🥭", "🍓", "🍒", "🍉"];
+    let copyWithinArray = ["🍎", "🍊", "🥭", "🍓", "🍒", "🍉"];
     // console.log(copyWithinArray);
     console.log(copyWithinArray.copyWithin(2));
     console.log(copyWithinArray.copyWithin(1));
@@ -162,9 +162,48 @@
     console.log(copyWithinArray.copyWithin(2, 2));
     // console.log(copyWithinArray.copyWithin(2, 0, 1));
                     
-    let copyWithinArray = [10, 15, 20, 25, 30, 35, 40, 45];
+    let copyWithinArray1 = [10, 15, 20, 25, 30, 35, 40, 45];
     // console.log(copyWithinArray.copyWithin(2));
     // console.log(copyWithinArray.copyWithin(0));
     // console.log(copyWithinArray.copyWithin(1, 3));
-    console.log(copyWithinArray.copyWithin(1, 2, 5));
+    console.log(copyWithinArray1.copyWithin(1, 2, 5));
+}
+
+{
+    // Array.filter()
+
+    let arr = [5, 10, 561, 21, 87];
+
+    let filter = arr.filter((item) => (item % 5 == 0));
+
+    console.log(filter);
+}
+
+{
+    // Array.flat()
+
+    {
+        let array = [1, 2, 3, [4, 5, 6, [7, 8, 9, 10]]];
+
+        console.log(array.flat(2));
+    }
+}
+
+{
+    // Array.forEach()
+
+    let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    let forEachArr = arr.forEach((item) => console.log(item));
+
+    console.log(forEachArr);
+}
+
+{
+    // Array.map()
+
+    let array = [5, 10, 15, 20, 25, 30];
+    let mapArray = array.map((item) => item * 5);
+
+    console.log(mapArray);
+    console.log(array.map((item) => item > 10));
 }
