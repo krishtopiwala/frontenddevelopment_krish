@@ -56,14 +56,18 @@
 }
 
 {
-    let obj1 = [];
+    // Object.defineProperties()
 
-    Object.defineProperties(obj1, {
-        property1: {
-            value: 45
-        },
-        property2: {},
+    const person = {
+        firstName: "Smit",
+        age: 25
+    };
+
+    console.log(person);
+
+    Object.defineProperties(person, {
+        language: {value: "english"},
     });
 
-    console.log(obj1.property1);
+    console.log(person);
 }
