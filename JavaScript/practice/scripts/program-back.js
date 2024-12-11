@@ -269,3 +269,17 @@
 
     console.log(sortedStr);
 }
+
+{
+    // 35) JavaScript Program to Replace Characters of a String
+
+    let str = "This is JavaScript. JavaScript is a scripting language.";
+    console.log(str.replaceAll("JavaScript", ".Net"));
+}
+
+{
+    // 36) JavaScript Program to Reverse a String
+
+    let str = "Reverse";
+    console.log(str.split("").reverse().join(""));
+}
