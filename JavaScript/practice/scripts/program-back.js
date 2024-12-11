@@ -136,3 +136,136 @@
         console.log("Prime Number");
     }
 }
+
+{
+    // 15) JavaScript Program to Find the Factorial of a Number
+
+    let n = 7;
+    let fact = 1;
+
+    for (let i = n; i >= 1; i--) {
+        fact = fact * i;
+    }
+    console.log(fact);
+}
+
+{
+    //  16) JavaScript Program to Display the Multiplication Table
+
+    let multiply = 5;
+
+    for (let i = 1; i <= 10; i++) {
+        console.log(`${multiply} * ${i} = ${multiply * i}`);
+    }
+}
+
+{
+    // 17) JavaScript Program to Print the Fibonacci Sequence
+
+    let n1 = 0;
+    let n2 = 1;
+    let n3 = 1;
+    let i = 1;
+
+    while (i <= 10) {
+        n3 = n1 + n2;
+        n1 = n2;
+        n2 = n3;
+
+        i++;
+        console.log(`${n1}`);
+    }
+}
+
+{
+    //  18) JavaScript Program to Check Armstrong Number
+
+    let num = 153;
+    let sum = 0;
+
+    let temp = num;
+
+    while (temp > 0) {
+        let remainder = temp % 10;
+        sum = sum + remainder * remainder * remainder;
+        temp = Math.floor(temp / 10);
+    }
+
+    if (sum == num) {
+        console.log(`${num} is an Armstrong number`);
+    } else {
+        console.log(`${num} is not an Armstrong number`);
+    }
+}
+
+{
+    // 21) JavaScript Program to Find the Sum of Natural Numbers
+
+    let num = 10;
+    let sum = 0;
+
+    for (let i = 1; i <= num; i++) {
+        sum = sum + i;
+    }
+    console.log(sum);
+}
+
+{
+    // 22) JavaScript Program to Check if the Numbers Have Same Last Digit
+
+    let num1 = 15, num2 = 253;
+    let temp1 = num1;
+    let temp2 = num2;
+    let r1 = 0, r2 = 0;
+
+    r1 = temp1 % 10;
+    r2 = temp2 % 10;
+
+    if (r1 == r2) {
+        console.log("Both have same last digit");
+    } else {
+        console.log("Both not have same last digit");
+    }
+}
+
+{
+    // 32) JavaScript Program to Find ASCII Value of Character
+
+    let str = "JavaScript";
+    console.log(str.charCodeAt(2));
+}
+
+{
+    // 33) JavaScript Program to Check Whether a String is Palindrome or Not
+
+    let str = "ABA";
+    let reverseStr = "";
+    
+    for (let i = str.length - 1; i >= 0; i--) {
+        reverseStr += str[i];
+    }
+    
+    // if (str === reverseStr) {
+    //     console.log("String is Palindrome");
+    // } else {
+    //     console.log("String is not Palindrome")
+    // }
+
+    reverseStr = str.split("").reverse().join("");
+
+    if (str === reverseStr) {
+        console.log("String is Palindrome");
+    } else {
+        console.log("String is not Palindrome")
+    }
+}
+
+{
+    // 34) JavaScript Program to Sort Words in Alphabetical Order
+
+    let str = "This is a JavaScript";
+    let strSplit = str.split("");
+    let sortedStr = strSplit.sort().join("");
+
+    console.log(sortedStr);
+}
