@@ -283,3 +283,92 @@
     let str = "Reverse";
     console.log(str.split("").reverse().join(""));
 }
+
+{
+    // 37) JavaScript Program to Create Objects in Different Ways
+
+    const obj = {
+        name: "Madhav",
+        age: 52,
+        gender: "Male",
+        sayHello: function() {
+            console.log("Hello World!");
+        }
+    };
+
+    obj.sayHello();
+
+    const obj1 = new Object();
+    obj1.firstName = "Virat";
+    obj1.lastName = "Kohli";
+
+    console.log(obj1);
+}
+
+{
+    // 38) JavaScript Program to Check the Number of Occurrences of a Character in the String
+
+    let str = "This is a JavaScript. JavaScript is a scripting language";
+    let count = 0;
+
+    for (let i = 0; i < str.length; i++) {
+        if (str.charAt(i) == 'i') {
+            count++;
+        }
+    }
+    console.log(`Number of occurences of a character ${count}`);
+}
+
+{
+    // 39) JavaScript Program to Convert the First Letter of a String into UpperCase
+
+    let str = "this is a javascript";
+    let strSplit = str.split(' ');
+
+
+    for (let i = 0; i < strSplit.length; i++) {
+        strSplit[i] = strSplit[i][0].toUpperCase() + strSplit[i].substring(1);
+    }
+    console.log(strSplit.join(' '));
+}
+
+{
+    // 40) JavaScript Program to Count the Number of Vowels in a String
+
+    let str = "JavaScript is a scripting language";
+    let countVowels = 0;
+
+    for (let i = 0; i < str.length; i++) {
+        if (str.charAt(i) == 'a' || str.charAt(i) == 'e' || str.charAt(i) == 'i' || str.charAt(i) == 'o' || str.charAt(i) == 'u') {
+            countVowels++;
+        }
+    }
+
+    console.log("Vowels ", countVowels);
+}
+
+{
+    // 41) JavaScript Program to Remove a Property from an Object
+
+    const obj = {
+        name: "Smit",
+        age: 25,
+        qualification: "BCA",
+        gender: "Male"
+    };
+
+    console.log(obj);
+    
+    delete obj.age;
+    delete obj.gender;
+
+    console.log(obj);
+}
+
+{
+    // 42) JavaScript Program to Check Whether a String Starts and Ends With Certain Characters
+
+    let str = "Vijay Sharma";
+    console.log(str.startsWith('V'));
+    console.log(str.endsWith('a'));
+}
